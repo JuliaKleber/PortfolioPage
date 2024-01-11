@@ -1,9 +1,10 @@
 import React from 'react';
 
-const Project = ({ title, image, link, description, role, tools, arrangement }) => {
+const Project = ({ title, image, imageSize, link, description, role, tools, arrangement }) => {
 
   const handleClick = () => {
-    window.open = (link, '_blank');
+    // window.open = (link, '_blank');
+    window.location.href = link;
   }
 
   return (
@@ -21,7 +22,7 @@ const Project = ({ title, image, link, description, role, tools, arrangement }) 
           })}
         </div>
       </div>
-      <img className='w-32 mx-5' src={image} alt='project' />
+      <img className={`${imageSize} mx-5`} src={image} alt='project' />
     </div>
   );
 }

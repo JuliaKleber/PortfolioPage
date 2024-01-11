@@ -14,7 +14,7 @@ const Profile = () => {
         <p className='mt-2 text-center'>
           Eagerly seeking an opportunity to transition<br />
           my skills and passion into a dynamic role<br />
-          within the realm of development.
+          within the realm of development
         </p>
       </div>
     </div>
