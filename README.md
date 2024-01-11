@@ -73,5 +73,13 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 ![image](https://github.com/JuliaKleber/portfolio-page/assets/142741980/a0822f58-d0df-493b-9986-49d4cdbd3b87)
 ![image](https://github.com/JuliaKleber/portfolio-page/assets/142741980/3366e162-c4aa-423c-a733-57ba4c2a8aab)
+![image](https://github.com/JuliaKleber/portfolio-page/assets/142741980/b754bab9-c12c-4cae-8349-b68ec78aca68)
+![image](https://github.com/JuliaKleber/portfolio-page/assets/142741980/eafaf7de-1f4b-4ca9-89b9-d13de69d1512)
+![image](https://github.com/JuliaKleber/portfolio-page/assets/142741980/6de91525-9b7c-4de2-aaca-129e598cc4ca)
+![image](https://github.com/JuliaKleber/portfolio-page/assets/142741980/435a3786-126e-49fa-bbea-225cf9c39bb9)
+
+
+
+
 
 
