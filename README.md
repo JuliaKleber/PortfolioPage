@@ -1,6 +1,6 @@
 # Portfolio Page
 
-This is a portfolio page which is still under construction.
+This is my portfolio page which is still under construction.
 
 ## Built with
 
