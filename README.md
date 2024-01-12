@@ -9,7 +9,7 @@ This is a portfolio page which is still under construction.
 
 ### Link
 
-![link](https://juliakleber.github.io/portfolio-page/)
+https://juliakleber.github.io/portfolio-page/
 
 ## Screenshots
 
