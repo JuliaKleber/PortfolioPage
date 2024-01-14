@@ -25,8 +25,8 @@ const Projects = () => {
                description={'My portfolio page'}
                descriptionSize={'w-[200px]'}
                imageSize={'w-32'}
-               gitHubLink={'https://github.com/JuliaKleber/portfolio-page'}
-               deployLink={'https://juliakleber.github.io/portfolio-page/'}
+               gitHubLink={'https://github.com/JuliaKleber/PortfolioPage'}
+               deployLink={'https://juliakleber.github.io/PortfolioPage/'}
                image={'https://github.com/JuliaKleber/portfolio-page/assets/142741980/435a3786-126e-49fa-bbea-225cf9c39bb9'} />
       <Project title={'Mastermind'}
                tools={['React Native']}
