@@ -25,7 +25,6 @@ const Toolkit = () => {
           <img className='m-1 h-12' src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg' alt='Git symbol' />
           <img className='m-1 h-12' src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg' alt='Github symbol' />
           <img className='m-1 h-12' src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/heroku/heroku-original.svg' alt='Heroku symbol' />
-          <img className='m-1 h-12' src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg' alt='Firebase symbol' />
           <img className='m-1 h-12' src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg' alt='VS Code symbol' />
         </div>
 
