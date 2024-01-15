@@ -9,7 +9,7 @@ import skiingImage from "../images/icons8-skiing-96.png";
 
 const Hobbies = () => {
   return (
-    <div className="my-4 flex flex-col sm:flex-row justify-center items-center">
+    <div className="my-4 flex flex-col-reverse sm:flex-row justify-center items-center">
       <div className="sm:me-8 flex flex-row">
         <img
           className="h-10 m-2"
@@ -62,7 +62,7 @@ const Hobbies = () => {
           alt="skiing icon"
         />
       </div>
-      <h2 className="sm:ms-8">Hobbies</h2>
+      <h2 className="sm:ms-8 font-cursive text-crimson text-4xl">Hobbies</h2>
     </div>
   );
 };

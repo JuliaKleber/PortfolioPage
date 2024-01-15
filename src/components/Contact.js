@@ -4,7 +4,7 @@ import codewarsImage from "../images/codewars_red.svg";
 const Contact = () => {
   return (
     <div className="my-4 flex flex-col sm:flex-row justify-center items-center">
-      <h2 className="sm:me-11">Let's connect!</h2>
+      <h2 className="sm:me-11 font-cursive text-crimson text-4xl">Let's connect!</h2>
       <div className="sm:ms-11 flex flex-row items-center justify-center">
         <a
           href="https://github.com/JuliaKleber"

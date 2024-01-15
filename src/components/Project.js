@@ -7,7 +7,7 @@ const Project = ({
   gitHubLink,
   deployLink,
   description,
-  descriptionSize,
+  toolsSize,
   tools,
 }) => {
   const goToDeploy = () => {
@@ -19,14 +19,14 @@ const Project = ({
   };
 
   return (
-    <div className="m-6 p-4 min-w-[400px] max-w-[400px] sm:sm:max-w-[600px] flex flex-col justify-center items-center rounded-sm shadow-costum">
+    <div className="m-6 p-4 min-w-[400px] max-w-[400px] sm:max-w-[600px] flex flex-col justify-center items-center rounded-sm shadow-costum">
       <div className="flex flex-row justify-center items-center">
 
         <div className="flex flex-col justify-center items-center">
 
-          <h3 className="font-cursive">{title}</h3>
+          <h3 className="mb-2 font-cursive text-crimson text-3xl">{title}</h3>
 
-          <div className="max-w-80 flex flex-row flex-wrap justify-center">
+          <div className={`w-48 ${toolsSize} flex flex-row flex-wrap justify-center items-center`}>
             {tools.map((tool) => {
               return (
                 <span className="py-0 px-2 mx-1 my-1 rounded-xl bg-red-100">
@@ -56,7 +56,7 @@ const Project = ({
         </div>
 
         <img
-          className={`mt-4 ms-4 ${imageSize} rounded-sm shadow-sm`}
+          className={`mt-4 ms-1 bg-red-100 ${imageSize} rounded-sm shadow-sm`}
           src={image}
           alt="project"
         />

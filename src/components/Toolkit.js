@@ -2,8 +2,8 @@ import React from "react";
 
 const Toolkit = () => {
   return (
-    <div className="my-4 flex flex-col-reverse sm:flex-row justify-center items-center">
-      <h2 className="sm:me-8">My Toolkit</h2>
+    <div className="my-4 flex flex-col sm:flex-row justify-center items-center">
+      <h2 className="sm:me-8 font-cursive text-crimson text-4xl">My Toolkit</h2>
 
       <div className="sm:ms-8 flex flex-col justify-center items-center">
         <div className="m-3 flex flex-row justify-center items-center">

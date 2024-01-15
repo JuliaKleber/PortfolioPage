@@ -13,17 +13,17 @@ const Projects = () => {
           "Stimulus",
           "SCSS",
           "Bootstrap",
-          "Heroku",
           "CRUD actions",
           "Routing",
           "ORM",
           "Canban",
           "Trello",
+          "Heroku",
         ]}
         description={
           "A task management app built by a team of four within a two-week timeframe as part of the Le Wagon bootcamp. To keep users motivated, positive reinforcement, user connections, and earning achievements are included. I pitched the idea, was primarily responsible for the final pitch, the backend development, deployment on Heroku, and managing the Trello board."
         }
-        descriptionSize={"w-[440px]"}
+        toolsSize={"md:w-96"}
         imageSize={"w-32"}
         gitHubLink={"https://github.com/JuliaKleber/ToDoCoach"}
         deployLink={"https://to-do-coach-f75c7e0f7968.herokuapp.com/"}
@@ -40,14 +40,14 @@ const Projects = () => {
           "Stimulus",
           "SCSS",
           "Bootstrap",
-          "Heroku",
           "CRUD actions",
           "Routing",
+          "Heroku",
         ]}
         description={
           "A quiz app built in a team of 4 within 1 week as part of the Le Wagon bootcamp. The users can create quizzes and solve quizzes. I was mainly responsible for the backend."
         }
-        descriptionSize={"w-[500px]"}
+        toolsSize={"md:w-96"}
         imageSize={"w-48"}
         gitHubLink={"https://github.com/JuliaKleber/QuizWiz"}
         deployLink={""}
@@ -59,7 +59,7 @@ const Projects = () => {
         title={"Meine Rezepte"}
         tools={["React", "SCSS", "Express JS", "CRUD actions", "React Router"]}
         description={"A recipe storage app"}
-        descriptionSize={"w-[200px]"}
+        toolsSize={"md:w-56"}
         imageSize={"w-32"}
         gitHubLink={"https://github.com/JuliaKleber/MeineRezepte"}
         deployLink={""}
@@ -71,7 +71,7 @@ const Projects = () => {
         title={"Mastermind"}
         tools={["React", "CSS"]}
         description={"A Mastermind game"}
-        descriptionSize={"w-[200px]"}
+        toolsSize={"md:w-48"}
         imageSize={"w-40"}
         gitHubLink={"https://github.com/JuliaKleber/MastermindReact"}
         deployLink={"https://juliakleber.github.io/MastermindReact-copy-/"}
@@ -83,7 +83,7 @@ const Projects = () => {
         title={"Portfolio Page"}
         tools={["React", "Tailwind CSS"]}
         description={"My portfolio page"}
-        descriptionSize={"w-[200px]"}
+        toolsSize={"md:w-48"}
         imageSize={"w-32"}
         gitHubLink={"https://github.com/JuliaKleber/PortfolioPage"}
         deployLink={"https://juliakleber.github.io/PortfolioPage/"}
@@ -95,7 +95,7 @@ const Projects = () => {
         title={"Mastermind"}
         tools={["React Native"]}
         description={"A Mastermind game"}
-        descriptionSize={"w-[200px]"}
+        toolsSize={"md:w-48"}
         imageSize={"w-20"}
         gitHubLink={"https://github.com/JuliaKleber/MastermindReactNative"}
         deployLink={""}
@@ -107,7 +107,7 @@ const Projects = () => {
         title={"Minesweeper"}
         tools={["Vanilla JS", "Bootstrap"]}
         description={"A Minesweeper game"}
-        descriptionSize={"w-[200px]"}
+        toolsSize={"md:w-48"}
         imageSize={"w-40"}
         gitHubLink={"https://github.com/JuliaKleber/Minesweeper"}
         deployLink={"https://juliakleber.github.io/Minesweeper/"}
@@ -119,6 +119,7 @@ const Projects = () => {
         title={"Tic Tac Toe"}
         tools={["Vanilla JS", "CSS", "Canvas"]}
         description={"A Tic Tac Toe game with one and two player modes"}
+        toolsSize={"md:w-56"}
         descriptionSize={"w-[368px]"}
         imageSize={"w-32"}
         gitHubLink={"https://github.com/JuliaKleber/TicTacToe"}
