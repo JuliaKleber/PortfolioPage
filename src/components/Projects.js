@@ -15,6 +15,7 @@ const Projects = () => {
           "Bootstrap",
           "CRUD actions",
           "Routing",
+          "PostgreSQL",
           "ORM",
           "Canban",
           "Trello",
@@ -42,6 +43,7 @@ const Projects = () => {
           "Bootstrap",
           "CRUD actions",
           "Routing",
+          "PostgreSQL",
           "Heroku",
         ]}
         description={

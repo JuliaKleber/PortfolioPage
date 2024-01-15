@@ -10,7 +10,9 @@ const Bio = () => {
         alt="Julia Kleber"
       />
       <div className="sm:ms-4 flex flex-col justify-center items-center">
-        <h2 className="mb-2 font-cursive text-crimson text-4xl">Julia Kleber</h2>
+        <h2 className="mb-2 font-cursive text-crimson text-4xl">
+          Julia Kleber
+        </h2>
         <p className="m-2 text-center">
           A graduate chemist and freelance lecturer with
           <br />
