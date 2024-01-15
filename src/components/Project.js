@@ -24,7 +24,7 @@ const Project = ({
 
         <div className="flex flex-col justify-center items-center">
 
-          <h3 className="mb-2 font-cursive text-crimson text-3xl">{title}</h3>
+          <h3 className="mb-2 font-cursive text-crimson text-3xl text-shadow-costum">{title}</h3>
 
           <div className={`w-48 ${toolsSize} flex flex-row flex-wrap justify-center items-center`}>
             {tools.map((tool) => {
