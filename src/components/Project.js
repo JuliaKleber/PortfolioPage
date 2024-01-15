@@ -19,12 +19,12 @@ const Project = ({
   };
 
   return (
-    <div className="m-6 p-4 flex flex-col justify-center items-center rounded-sm shadow-costum">
-      <div className="flex flex-row">
+    <div className="m-6 p-4 min-w-[400px] max-w-[400px] sm:sm:max-w-[600px] flex flex-col justify-center items-center rounded-sm shadow-costum">
+      <div className="flex flex-row justify-center items-center">
 
         <div className="flex flex-col justify-center items-center">
 
-          <h2 className="font-cursive">{title}</h2>
+          <h3 className="font-cursive">{title}</h3>
 
           <div className="max-w-80 flex flex-row flex-wrap justify-center">
             {tools.map((tool) => {
@@ -63,7 +63,7 @@ const Project = ({
 
       </div>
 
-      <p className={`my-3 text-center ${descriptionSize}`}>{description}</p>
+      <p className={`my-3 text-center`}>{description}</p>
 
     </div>
   );

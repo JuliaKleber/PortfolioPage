@@ -38,7 +38,7 @@ const Projects = () => {
                image={'https://github.com/JuliaKleber/MastermindReactNative/assets/142741980/d06aa979-25f4-406d-8509-0d00931c90e6'} />
       <Project title={'To Do Coach'}
                tools={['Ruby on Rails', 'HTML', 'JavaScript', 'Stimulus', 'SCSS', 'Bootstrap', 'Heroku', 'CRUD actions', 'Routing', 'ORM', 'Canban', 'Trello']}
-               description={'A task management app was built by a team of four within a two-week timeframe as part of the Le Wagon bootcamp. To keep users motivated, positive reinforcement, user connections, and earning achievements are included. I pitched the idea, was primarily responsible for the final pitch, the backend development, deployment on Heroku, and managing the Trello board.'}
+               description={'A task management app built by a team of four within a two-week timeframe as part of the Le Wagon bootcamp. To keep users motivated, positive reinforcement, user connections, and earning achievements are included. I pitched the idea, was primarily responsible for the final pitch, the backend development, deployment on Heroku, and managing the Trello board.'}
                descriptionSize={'w-[440px]'}
                imageSize={'w-32'}
                gitHubLink={'https://github.com/JuliaKleber/ToDoCoach'}
@@ -53,21 +53,21 @@ const Projects = () => {
                deployLink={''}
                image={'https://github.com/JuliaKleber/QuizWiz/assets/142741980/2f7a2ce2-09c0-4110-ad90-d607e9bee5af'} />
       <Project title={'Minesweeper'}
-               tools={['Vanilla JS', 'Bootstrap']}
-               description={'A Minesweeper game'}
-               descriptionSize={'w-[200px]'}
-               imageSize={'w-40'}
-               gitHubLink={'https://github.com/JuliaKleber/Minesweeper'}
-               deployLink={'https://juliakleber.github.io/Minesweeper/'}
-               image={'https://github.com/JuliaKleber/portfolio-page/assets/142741980/eafaf7de-1f4b-4ca9-89b9-d13de69d1512'} />
+              tools={['Vanilla JS', 'Bootstrap']}
+              description={'A Minesweeper game'}
+              descriptionSize={'w-[200px]'}
+              imageSize={'w-40'}
+              gitHubLink={'https://github.com/JuliaKleber/Minesweeper'}
+              deployLink={'https://juliakleber.github.io/Minesweeper/'}
+              image={'https://github.com/JuliaKleber/portfolio-page/assets/142741980/eafaf7de-1f4b-4ca9-89b9-d13de69d1512'} />
       <Project title={'Tic Tac Toe'}
-               tools={['Vanilla JS', 'CSS', 'Canvas']}
-               description={'A Tic Tac Toe game with one and two player modes'}
-               descriptionSize={'w-[368px]'}
-               imageSize={'w-32'}
-               gitHubLink={'https://github.com/JuliaKleber/TicTacToe'}
-               deployLink={'https://juliakleber.github.io/TicTacToe/'}
-               image={'https://github.com/JuliaKleber/PortfolioPage/assets/142741980/f0071c07-bdd4-4901-9874-93e8001c4ea6'} />
+              tools={['Vanilla JS', 'CSS', 'Canvas']}
+              description={'A Tic Tac Toe game with one and two player modes'}
+              descriptionSize={'w-[368px]'}
+              imageSize={'w-32'}
+              gitHubLink={'https://github.com/JuliaKleber/TicTacToe'}
+              deployLink={'https://juliakleber.github.io/TicTacToe/'}
+              image={'https://github.com/JuliaKleber/PortfolioPage/assets/142741980/f0071c07-bdd4-4901-9874-93e8001c4ea6'} />
     </div>
   );
 }
