@@ -76,7 +76,7 @@ const Projects = () => {
         toolsSize={"md:w-48"}
         imageSize={"w-40"}
         gitHubLink={"https://github.com/JuliaKleber/MastermindReact"}
-        deployLink={"https://juliakleber.github.io/MastermindReact-copy-/"}
+        deployLink={"https://juliakleber.github.io/MastermindReact/"}
         image={
           "https://github.com/JuliaKleber/MastermindReact/assets/142741980/46527a62-839c-471f-81b9-ef5d9506c512"
         }
