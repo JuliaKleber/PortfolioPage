@@ -1,7 +1,7 @@
 import React from "react";
 import foto from "../images/JuliaKleber.jpg";
 
-const Bio = () => {
+const Bio = ({ textColor }) => {
   return (
     <div className="my-4 flex flex-col md:flex-row items-center justify-center">
       <img
@@ -10,7 +10,7 @@ const Bio = () => {
         alt="Julia Kleber"
       />
       <div className="sm:ms-4 flex flex-col justify-center items-center">
-        <h2 className="mb-2 font-cursive text-crimson text-4xl">
+        <h2 className={`mb-2 font-cursive ${textColor} text-4xl`}>
           Julia Kleber
         </h2>
         <p className="m-2 text-center">

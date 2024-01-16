@@ -1,10 +1,10 @@
 import React from "react";
 import codewarsImage from "../images/codewars_red.svg";
 
-const Contact = () => {
+const Contact = ({ textColor }) => {
   return (
     <div className="my-4 flex flex-col sm:flex-row justify-center items-center">
-      <h2 className="sm:me-11 font-cursive text-crimson text-4xl">
+      <h2 className={`sm:me-11 font-cursive ${textColor} text-4xl`}>
         Let's connect!
       </h2>
       <div className="sm:ms-11 flex flex-row items-center justify-center">
@@ -24,13 +24,7 @@ const Contact = () => {
           target="_blank"
           rel="noreferrer"
         >
-          <img
-            className="m-3 h-12"
-            alt="codewars icon"
-            src={codewarsImage}
-            alt="link to codewars"
-            id="codewars-image"
-          />
+          <img className="m-3 h-12" alt="codewars icon" src={codewarsImage} />
         </a>
         <a
           href="https://www.linkedin.com/in/juliakleber/"

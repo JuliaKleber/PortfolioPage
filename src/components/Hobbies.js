@@ -7,7 +7,7 @@ import drumsImage from "../images/icons8-drums-96.png";
 import pianoImage from "../images/icons8-piano-96.png";
 import skiingImage from "../images/icons8-skiing-96.png";
 
-const Hobbies = () => {
+const Hobbies = ({ textColor }) => {
   return (
     <div className="my-4 flex flex-col-reverse sm:flex-row justify-center items-center">
       <div className="sm:me-8 flex flex-row">
@@ -62,7 +62,7 @@ const Hobbies = () => {
           alt="skiing icon"
         />
       </div>
-      <h2 className="sm:ms-8 font-cursive text-crimson text-4xl">Hobbies</h2>
+      <h2 className={`sm:ms-8 font-cursive ${textColor} text-4xl`}>Hobbies</h2>
     </div>
   );
 };

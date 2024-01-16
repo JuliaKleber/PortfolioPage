@@ -10,7 +10,7 @@ module.exports = {
       },
       colors: {
         crimson: '#DC143C',
-        floralwhite: '#FFFAF0',
+        darkMagenta: '#8B008B',
       },
       boxShadow: {
         'costum': '2px 2px 6px 0px rgba(0, 0, 0, 0.5)',
