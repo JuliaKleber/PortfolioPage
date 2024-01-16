@@ -90,7 +90,7 @@ const Projects = () => {
         gitHubLink={"https://github.com/JuliaKleber/PortfolioPage"}
         deployLink={"https://juliakleber.github.io/PortfolioPage/"}
         image={
-          "https://github.com/JuliaKleber/portfolio-page/assets/142741980/435a3786-126e-49fa-bbea-225cf9c39bb9"
+          "https://github.com/JuliaKleber/PortfolioPage/assets/142741980/ec12fb33-cbac-41d1-aaf7-3ba22243f3cf"
         }
       />
       <Project

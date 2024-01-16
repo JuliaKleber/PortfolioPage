@@ -57,7 +57,7 @@ const Project = ({
         </div>
 
         <img
-          className={`mt-4 ms-1 bg-red-100 ${imageSize} rounded-sm shadow-sm`}
+          className={`mt-4 ms-2 bg-red-100 ${imageSize} rounded-sm shadow-sm`}
           src={image}
           alt="project"
         />
