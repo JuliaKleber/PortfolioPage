@@ -14,7 +14,7 @@ function App() {
       <HeadBar darkMode={darkMode} setDarkMode={setDarkMode} />
       <div
         className={`flex flex-col items-center ${
-          darkMode ? "bg-gray-900" : "bg-floralwhite"
+          darkMode ? "bg-gray-800" : "bg-floralwhite"
         }`}
       >
         <Profile darkMode={darkMode} />
