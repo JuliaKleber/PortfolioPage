@@ -4,7 +4,7 @@ const Toolkit = ({ textColor, darkMode }) => {
   return (
     <div className="my-4 flex flex-col sm:flex-row justify-center items-center">
       <h2 className={`mb-1 sm:mb-0 sm:me-8 font-cursive ${textColor} text-4xl`}>
-        My Toolkit
+        Toolkit
       </h2>
 
       <div className="sm:ms-8 flex flex-col justify-center items-center">
