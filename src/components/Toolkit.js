@@ -1,9 +1,9 @@
 import React from "react";
 
-const Toolkit = ({ textColor }) => {
+const Toolkit = ({ textColor, darkMode }) => {
   return (
     <div className="my-4 flex flex-col sm:flex-row justify-center items-center">
-      <h2 className={`sm:me-8 font-cursive ${textColor} text-4xl`}>
+      <h2 className={`mb-1 sm:mb-0 sm:me-8 font-cursive ${textColor} text-4xl`}>
         My Toolkit
       </h2>
 
@@ -11,12 +11,12 @@ const Toolkit = ({ textColor }) => {
         <div className="m-3 flex flex-row justify-center items-center">
           <img
             className="m-1 h-12"
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
             alt="HTML symbol"
           />
           <img
             className="m-1 h-12"
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
             alt="CSS symbol"
           />
           <img
@@ -38,7 +38,7 @@ const Toolkit = ({ textColor }) => {
 
         <div className="m-3 flex flex-row justify-center">
           <img
-            className="m-1 h-12"
+            className="m-1 h-12 rounded-md"
             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
             alt="JavaScript symbol"
           />
@@ -66,7 +66,7 @@ const Toolkit = ({ textColor }) => {
             alt="Git symbol"
           />
           <img
-            className="m-1 h-12"
+            className={`m-1 h-12 rounded-md ${darkMode && "bg-pink-100"}`}
             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
             alt="Github symbol"
           />

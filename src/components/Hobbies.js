@@ -7,19 +7,22 @@ import drumsImage from "../images/icons8-drums-96.png";
 import pianoImage from "../images/icons8-piano-96.png";
 import skiingImage from "../images/icons8-skiing-96.png";
 
-const Hobbies = ({ textColor }) => {
+const Hobbies = ({ textColor, darkMode }) => {
   return (
-    <div className="my-4 flex flex-col-reverse sm:flex-row justify-center items-center">
+    <div className="my-4 flex flex-col sm:flex-row justify-center items-center">
+      <h2 className={`mb-3 sm:mb-0 sm:me-8 font-cursive ${textColor} text-4xl`}>
+        Hobbies
+      </h2>
       <div className="sm:me-8 flex flex-row">
         <img
-          className="h-10 m-2"
+          className={`h-11 m-2 p-1 ${darkMode && "bg-pink-200 rounded-md"}`}
           src={climbingImage}
           type="image/png"
           rel="icon"
           alt="climbing icon"
         />
         <img
-          className="h-10 m-2"
+          className={`h-11 m-2 p-1 ${darkMode && "bg-pink-200 rounded-md"}`}
           src={boardGamesImage}
           type="image/png"
           sizes="16x16"
@@ -27,42 +30,41 @@ const Hobbies = ({ textColor }) => {
           alt="board games icon"
         />
         <img
-          className="h-10 m-2"
+          className={`h-11 m-2 p-1 ${darkMode && "bg-pink-200 rounded-md"}`}
           src={bicycleImage}
           type="image/png"
           rel="icon"
           alt="bicycle icon"
         />
         <img
-          className="h-10 m-2"
+          className={`h-11 m-2 p-1 ${darkMode && "bg-pink-200 rounded-md"}`}
           src={cookingImage}
           type="image/png"
           rel="icon"
           alt="cooking icon"
         />
         <img
-          className="h-10 m-2"
+          className={`h-11 m-2 p-1 ${darkMode && "bg-pink-200 rounded-md"}`}
           src={drumsImage}
           type="image/png"
           rel="icon"
           alt="drums icon"
         />
         <img
-          className="h-10 m-2"
+          className={`h-11 m-2 p-1 ${darkMode && "bg-pink-200 rounded-md"}`}
           src={pianoImage}
           type="image/png"
           rel="icon"
           alt="piano icon"
         />
         <img
-          className="h-10 m-2"
+          className={`h-11 m-2 p-1 ${darkMode && "bg-pink-200 rounded-md"}`}
           src={skiingImage}
           type="image/png"
           rel="icon"
           alt="skiing icon"
         />
       </div>
-      <h2 className={`sm:ms-8 font-cursive ${textColor} text-4xl`}>Hobbies</h2>
     </div>
   );
 };

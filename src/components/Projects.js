@@ -1,10 +1,18 @@
 import React from "react";
 import Project from "./Project";
 
-const Projects = () => {
+const Projects = ({ darkMode }) => {
   return (
-    <div className="2xl:ms-20 flex flex-row justify-center items-center flex-wrap">
+    <div className="flex flex-row justify-center items-center flex-wrap">
+      <h2
+        className={`my-4 sm:hidden font-cursive text-4xl ${
+          darkMode ? "text-purple-300" : "text-darkMagenta"
+        }`}
+      >
+        Projects
+      </h2>
       <Project
+        darkMode={darkMode}
         title={"To Do Coach"}
         tools={[
           "Ruby on Rails",
@@ -33,6 +41,7 @@ const Projects = () => {
         }
       />
       <Project
+        darkMode={darkMode}
         title={"QuizWiz"}
         tools={[
           "Ruby on Rails",
@@ -58,6 +67,7 @@ const Projects = () => {
         }
       />
       <Project
+        darkMode={darkMode}
         title={"Meine Rezepte"}
         tools={["React", "SCSS", "Express JS", "CRUD actions", "React Router"]}
         description={"A recipe storage app"}
@@ -70,6 +80,7 @@ const Projects = () => {
         }
       />
       <Project
+        darkMode={darkMode}
         title={"Mastermind"}
         tools={["React", "CSS"]}
         description={"A Mastermind game"}
@@ -82,6 +93,7 @@ const Projects = () => {
         }
       />
       <Project
+        darkMode={darkMode}
         title={"Portfolio Page"}
         tools={["React", "Tailwind CSS"]}
         description={"My portfolio page"}
@@ -94,6 +106,7 @@ const Projects = () => {
         }
       />
       <Project
+        darkMode={darkMode}
         title={"Mastermind"}
         tools={["React Native"]}
         description={"A Mastermind game"}
@@ -106,6 +119,7 @@ const Projects = () => {
         }
       />
       <Project
+        darkMode={darkMode}
         title={"Minesweeper"}
         tools={["Vanilla JS", "Bootstrap"]}
         description={"A Minesweeper game"}
@@ -118,6 +132,7 @@ const Projects = () => {
         }
       />
       <Project
+        darkMode={darkMode}
         title={"Tic Tac Toe"}
         tools={["Vanilla JS", "CSS", "Canvas"]}
         description={"A Tic Tac Toe game with one and two player modes"}
