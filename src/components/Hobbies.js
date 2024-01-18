@@ -9,7 +9,7 @@ import skiingImage from "../images/icons8-skiing-96.png";
 
 const Hobbies = ({ textColor, darkMode }) => {
   return (
-    <div className="my-4 flex flex-col sm:flex-row justify-center items-center">
+    <div className="my-4 flex flex-col sm:flex-row-reverse justify-center items-center">
       <h2 className={`mb-3 sm:mb-0 sm:me-8 font-cursive ${textColor} text-4xl`}>
         Hobbies
       </h2>
