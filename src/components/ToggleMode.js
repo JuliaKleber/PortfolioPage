@@ -14,12 +14,12 @@ const ToggleMode = ({ darkMode, setDarkMode }) => {
     <div>
       <FontAwesomeIcon
         icon={faMoon}
-        className={`cursor-pointer ${moonVisible ? "block" : "hidden"}`}
+        className={`cursor-pointer ${moonVisible ? "hidden" : "block"}`}
         onClick={() => toggleMode()}
       />
       <FontAwesomeIcon
         icon={faSun}
-        className={`cursor-pointer ${moonVisible ? "hidden" : "block"}`}
+        className={`cursor-pointer ${moonVisible ? "block" : "hidden"}`}
         onClick={() => toggleMode()}
       />
     </div>
