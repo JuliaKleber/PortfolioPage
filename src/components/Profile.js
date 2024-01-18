@@ -12,21 +12,21 @@ const Profile = ({ darkMode }) => {
         textColor={darkMode ? "text-purple-300" : "text-darkMagenta"}
       />
       <div
-        className={`my-2 max-w-[650px] border-t-2 ${darkMode && "border-gray-950"}`}
+        className={`my-2 max-w-[650px] border-t-2 ${darkMode && "border-gray-900"}`}
       ></div>
       <Toolkit
         darkMode={darkMode}
         textColor={darkMode ? "text-purple-300" : "text-darkMagenta"}
       />
       <div
-        className={`my-2 max-w-[650px] border-t-2 ${darkMode && "border-gray-950"}`}
+        className={`my-2 max-w-[650px] border-t-2 ${darkMode && "border-gray-900"}`}
       ></div>
       <Hobbies
         darkMode={darkMode}
         textColor={darkMode ? "text-purple-300" : "text-darkMagenta"}
       />
       <div
-        className={`my-2 max-w-[650px] border-t-2 ${darkMode && "border-gray-950"}`}
+        className={`my-2 max-w-[650px] border-t-2 ${darkMode && "border-gray-900"}`}
       ></div>
       <Contact
         darkMode={darkMode}
@@ -34,7 +34,7 @@ const Profile = ({ darkMode }) => {
       />
       <div
         className={`my-2 md:hidden max-w-[650px] border-t-2 ${
-          darkMode && "border-gray-950"
+          darkMode && "border-gray-900"
         }`}
       ></div>
     </div>
