@@ -1,6 +1,6 @@
 # Portfolio Page
 
-This is my portfolio page to showcase my projects.
+This is a portfolio page to showcase my projects.
 
 ## Built with
 
