@@ -21,7 +21,7 @@ const Project = ({
 
   return (
     <div
-      className={`m-6 p-4 min-w-[400px] max-w-[400px] sm:max-w-[600px] flex flex-col justify-center items-center rounded-sm shadow-costum ${
+      className={`m-6 p-4 sm:min-w-[400px] max-w-[400px] sm:max-w-[600px] flex flex-col justify-center items-center rounded-sm shadow-costum ${
         darkMode ? "bg-black text-pink-100" : "text-black"
       }`}
     >
@@ -78,7 +78,7 @@ const Project = ({
         </div>
 
         <img
-          className={`mt-4 ms-2 ${imageSize} rounded-sm shadow-sm`}
+          className={`hidden sm:block mt-4 ms-2 ${imageSize} rounded-sm shadow-sm`}
           src={image}
           alt="project"
         />
