@@ -13,7 +13,8 @@ https://juliakleber.github.io/PortfolioPage/
 
 ## Screenshot
 
-![Screenshot of Portfolio Page](https://github.com/JuliaKleber/PortfolioPage/assets/142741980/ec12fb33-cbac-41d1-aaf7-3ba22243f3cf)
+![Screenshot of Portfolio Page](https://github.com/JuliaKleber/PortfolioPage/assets/142741980/da344dd6-e2a4-4316-98a0-ada75b2a1510)
+
 
 ## Author
 
