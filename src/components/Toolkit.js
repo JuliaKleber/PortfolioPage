@@ -1,11 +1,9 @@
 import React from "react";
 
-const Toolkit = ({ textColor, darkMode }) => {
+const Toolkit = ({ darkMode }) => {
   return (
     <div className="my-4 flex flex-col sm:flex-row justify-center items-center">
-      <h2 className={`mb-1 sm:mb-0 sm:me-8 font-cursive ${textColor} text-4xl`}>
-        Toolkit
-      </h2>
+      <h2 className={`mb-1 sm:mb-0 sm:me-8 font-cursive text-4xl`}>Toolkit</h2>
 
       <div className="sm:ms-8 flex flex-col justify-center items-center">
         <div className="m-3 flex flex-row justify-center items-center">

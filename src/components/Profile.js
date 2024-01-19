@@ -3,40 +3,19 @@ import Bio from "./Bio";
 import Hobbies from "./Hobbies";
 import Toolkit from "./Toolkit";
 import Contact from "./Contact";
+import DivisionBar from './DivisionBar';
 
 const Profile = ({ darkMode }) => {
   return (
     <div className="flex flex-col">
-      <Bio
-        darkMode={darkMode}
-        textColor={darkMode ? "text-purple-300" : "text-darkMagenta"}
-      />
-      <div
-        className={`my-2 max-w-[650px] border-t-2 ${darkMode && "border-gray-900"}`}
-      ></div>
-      <Toolkit
-        darkMode={darkMode}
-        textColor={darkMode ? "text-purple-300" : "text-darkMagenta"}
-      />
-      <div
-        className={`my-2 max-w-[650px] border-t-2 ${darkMode && "border-gray-900"}`}
-      ></div>
-      <Hobbies
-        darkMode={darkMode}
-        textColor={darkMode ? "text-purple-300" : "text-darkMagenta"}
-      />
-      <div
-        className={`my-2 max-w-[650px] border-t-2 ${darkMode && "border-gray-900"}`}
-      ></div>
-      <Contact
-        darkMode={darkMode}
-        textColor={darkMode ? "text-purple-300" : "text-darkMagenta"}
-      />
-      <div
-        className={`my-2 md:hidden max-w-[650px] border-t-2 ${
-          darkMode && "border-gray-900"
-        }`}
-      ></div>
+      <Bio darkMode={darkMode} />
+      <DivisionBar darkMode={darkMode} />
+      <Toolkit darkMode={darkMode} />
+      <DivisionBar darkMode={darkMode} />
+      <Hobbies darkMode={darkMode} />
+      <DivisionBar darkMode={darkMode} />
+      <Contact darkMode={darkMode} />
+      <DivisionBar darkMode={darkMode} />
     </div>
   );
 };

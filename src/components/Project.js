@@ -22,7 +22,7 @@ const Project = ({
   return (
     <div
       className={`m-6 p-4 min-w-[400px] max-w-[400px] sm:max-w-[600px] flex flex-col justify-center items-center rounded-sm shadow-costum ${
-        darkMode && "bg-black text-pink-100"
+        darkMode ? "bg-black text-pink-100" : "text-black"
       }`}
     >
       <div className="flex flex-row justify-center items-center">

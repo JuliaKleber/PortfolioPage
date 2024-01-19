@@ -7,12 +7,10 @@ import drumsImage from "../images/icons8-drums-96.png";
 import pianoImage from "../images/icons8-piano-96.png";
 import skiingImage from "../images/icons8-skiing-96.png";
 
-const Hobbies = ({ textColor, darkMode }) => {
+const Hobbies = ({ darkMode }) => {
   return (
     <div className="my-4 flex flex-col sm:flex-row-reverse justify-center items-center">
-      <h2 className={`mb-3 sm:mb-0 sm:me-8 font-cursive ${textColor} text-4xl`}>
-        Hobbies
-      </h2>
+      <h2 className={`mb-3 sm:mb-0 sm:me-8 font-cursive text-4xl`}>Hobbies</h2>
       <div className="sm:me-8 flex flex-row">
         <img
           className={`h-11 m-2 p-1 ${darkMode && "bg-pink-200 rounded-md"}`}

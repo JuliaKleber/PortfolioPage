@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import HeadBar from "./components/HeadBar";
+import ToggleMode from "./components/ToggleMode";
 import Profile from "./components/Profile";
 import Projects from "./components/Projects";
 import BouncingArrow from "./components/BouncingArrow";
@@ -10,18 +10,20 @@ function App() {
   );
 
   return (
-    <>
-      <HeadBar darkMode={darkMode} setDarkMode={setDarkMode} />
-      <div
-        className={`flex flex-col items-center ${
-          darkMode ? "bg-gray-800" : "bg-floralwhite"
-        }`}
-      >
+    <div
+      className={`${
+        darkMode
+          ? "bg-gray-800 text-purple-300"
+          : "bg-floralwhite text-darkMagenta"
+      }`}
+    >
+      <ToggleMode darkMode={darkMode} setDarkMode={setDarkMode} />
+      <div className={`flex flex-col items-center`}>
         <Profile darkMode={darkMode} />
         <BouncingArrow darkMode={darkMode} />
         <Projects darkMode={darkMode} />
       </div>
-    </>
+    </div>
   );
 }
 

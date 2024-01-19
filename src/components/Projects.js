@@ -4,13 +4,7 @@ import Project from "./Project";
 const Projects = ({ darkMode }) => {
   return (
     <>
-      <h2
-        className={`my-4 md:hidden font-cursive text-4xl ${
-          darkMode ? "text-purple-300" : "text-darkMagenta"
-        }`}
-      >
-        Projects
-      </h2>
+      <h2 className={`my-4 md:hidden font-cursive text-4xl`}>Projects</h2>
       <div className="flex flex-row justify-center items-center flex-wrap">
         <Project
           darkMode={darkMode}
@@ -144,7 +138,6 @@ const Projects = ({ darkMode }) => {
           tools={["Vanilla JS", "CSS", "Canvas"]}
           description={"A Tic Tac Toe game with one and two player modes"}
           toolsSize={"md:w-56"}
-          descriptionSize={"w-[368px]"}
           imageSize={"w-32"}
           gitHubLink={"https://github.com/JuliaKleber/TicTacToe"}
           deployLink={"https://juliakleber.github.io/TicTacToe/"}
