@@ -2,12 +2,14 @@ import React from "react";
 
 const Project = ({
   darkMode,
+  language,
   title,
   imageLink,
   imageSize,
   gitHubLink,
   deployLink,
-  description,
+  englishDescription,
+  germanDescription,
   toolsSize,
   tools,
 }) => {
@@ -99,7 +101,7 @@ const Project = ({
         {image}
       </div>
 
-      <p className={`my-3 text-center`}>{description}</p>
+      <p className={`my-3 text-center`}>{language === 'German' ? germanDescription : englishDescription}</p>
     </div>
   );
 };

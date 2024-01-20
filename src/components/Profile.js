@@ -5,10 +5,10 @@ import Toolkit from "./Toolkit";
 import Contact from "./Contact";
 import DivisionBar from './DivisionBar';
 
-const Profile = ({ darkMode }) => {
+const Profile = ({ darkMode, language }) => {
   return (
     <div className="flex flex-col">
-      <Bio darkMode={darkMode} />
+      <Bio darkMode={darkMode} language={language} />
       <DivisionBar darkMode={darkMode} />
       <Toolkit darkMode={darkMode} />
       <DivisionBar darkMode={darkMode} />
