@@ -11,7 +11,7 @@ const ToggleMode = ({ darkMode, setDarkMode }) => {
   };
 
   return (
-    <div className="p-5 pb-0 text-xl flex flex-row justify-between 2xl:justify-center">
+    <div className="p-5 pb-0 text-xl flex flex-row justify-center 2xl:justify-center">
       <FontAwesomeIcon
         icon={faMoon}
         className={`cursor-pointer ${moonVisible ? "hidden" : "block"}`}

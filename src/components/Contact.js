@@ -14,11 +14,12 @@ const Contact = ({ darkMode }) => {
           rel="noreferrer"
         >
           <img
-            className={`m-1 h-12 rounded-md ${darkMode && "bg-pink-100"}`}
+            className={`m-3 h-12 rounded-md ${darkMode && "bg-pink-100"}`}
             alt="github icon"
             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
           />
         </a>
+
         <a
           href="https://www.codewars.com/users/Drempels"
           target="_blank"
@@ -26,6 +27,7 @@ const Contact = ({ darkMode }) => {
         >
           <img className="m-3 h-12" alt="codewars icon" src={codewarsImage} />
         </a>
+
         <a
           href="https://www.linkedin.com/in/juliakleber/"
           target="_blank"
