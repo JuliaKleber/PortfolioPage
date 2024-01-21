@@ -1,6 +1,6 @@
 # Portfolio Page
 
-This is a portfolio page to showcase my projects.
+This is a portfolio page to showcase my projects. You can switch between dark and light mode and also between German and English.
 
 ## Built with
 
