@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/PortfolioPage/static/css/main.4cb6c923.css",
-    "main.js": "/PortfolioPage/static/js/main.ac7379c4.js",
+    "main.js": "/PortfolioPage/static/js/main.421980e8.js",
     "static/media/JuliaKleber.jpg": "/PortfolioPage/static/media/JuliaKleber.28d6de2af7c184cc11d9.jpg",
     "static/media/React Native.png": "/PortfolioPage/static/media/React Native.90bd589442ed4516b254.png",
     "static/media/codewars_red.svg": "/PortfolioPage/static/media/codewars_red.ce14d609044137db2ae3e5b7c6713dff.svg",
     "index.html": "/PortfolioPage/index.html",
     "main.4cb6c923.css.map": "/PortfolioPage/static/css/main.4cb6c923.css.map",
-    "main.ac7379c4.js.map": "/PortfolioPage/static/js/main.ac7379c4.js.map"
+    "main.421980e8.js.map": "/PortfolioPage/static/js/main.421980e8.js.map"
   },
   "entrypoints": [
     "static/css/main.4cb6c923.css",
-    "static/js/main.ac7379c4.js"
+    "static/js/main.421980e8.js"
   ]
 }
