@@ -3,7 +3,6 @@ import ToggleMode from "./components/ToggleMode";
 import ToggleLanguage from "./components/ToggleLanguage";
 import Profile from "./components/Profile";
 import Projects from "./components/Projects";
-import BouncingArrow from "./components/BouncingArrow";
 
 function App() {
   const [darkMode, setDarkMode] = useState(
@@ -23,7 +22,6 @@ function App() {
       </div>
       <div className={`flex flex-col items-center`}>
         <Profile darkMode={darkMode} language={language} />
-        <BouncingArrow darkMode={darkMode} language={language} />
         <Projects darkMode={darkMode} language={language} />
       </div>
     </div>

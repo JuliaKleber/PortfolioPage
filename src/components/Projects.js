@@ -4,7 +4,7 @@ import Project from "./Project";
 const Projects = ({ darkMode, language }) => {
   return (
     <>
-      <h2 className={`my-4 md:hidden font-cursive text-4xl`}>
+      <h2 className={`my-4 font-cursive text-4xl`}>
         {language === "German" ? "Projekte" : "Projects"}
       </h2>
       <div className="flex flex-row justify-center items-center flex-wrap">
@@ -61,7 +61,7 @@ const Projects = ({ darkMode, language }) => {
             "A quiz app built in a team of 4 within 1 week as part of the Le Wagon bootcamp. The users can create quizzes and solve quizzes. I was mainly responsible for the backend."
           }
           germanDescription={
-            "Eine Quiz-App, die wir in einem Team von vier Personen innerhalb von einer Woche im Rahmen des Le Wagon-Bootcamps entwickelt haben. Die Benutzer können Quizzes erstellen und lösen. Ich war Ideengeber und war hauptsächlich für das Backend verantwortlich."
+            "Eine Quiz-App, die wir in einem Team von vier Personen innerhalb von einer Woche im Rahmen des Le Wagon-Bootcamps entwickelt haben. Die Benutzer können Quizzes erstellen und lösen. Ich war Ideengeber und hauptsächlich für das Backend verantwortlich."
           }
           toolsSize={"md:w-96"}
           imageSize={"w-48"}
