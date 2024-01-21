@@ -4,9 +4,12 @@ import { faArrowDown } from "@fortawesome/free-solid-svg-icons";
 
 const BouncingArrow = ({ language }) => {
   return (
-    <p className={`hidden md:block mt-3 md:mb-60 text-xl font-cursive`}>
+    <p
+      className={`hidden md:block mt-3 md:mb-60 text-xl font-cursive`}
+      aria-label={language === "German" ? "Projekte" : "Projects"}
+    >
       <FontAwesomeIcon icon={faArrowDown} className="mr-1 bounce" />
-      {language === 'German' ? 'Projekte' : 'Projects'}
+      {language === "German" ? "Projekte" : "Projects"}
     </p>
   );
 };

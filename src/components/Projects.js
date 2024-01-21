@@ -28,7 +28,9 @@ const Projects = ({ darkMode, language }) => {
           englishDescription={
             "A task management app built in a team of four within a two-week timeframe as part of the Le Wagon bootcamp. To keep users motivated, positive reinforcement, user connections, and earning achievements are included. I pitched the idea, was primarily responsible for the final pitch, the backend development, deployment on Heroku, and managing the Trello board."
           }
-          germanDescription={'Eine To-Do-App, die wir in einem Team von vier Personen innerhalb eines Zeitraums von zwei Wochen im Rahmen des Le Wagon-Bootcamps entwickelt haben. Um die Benutzer zu motivieren, haben wir positive Verstärkung, einen Social Feed und die Möglichkeit, Erfolge zu verdienen, integriert. Ich habe die Idee präsentiert und war hauptsächlich verantwortlich für die abschließende Präsentation, die Backend-Entwicklung, das Deployment auf Heroku sowie die Verwaltung des Trello-Boards.'}
+          germanDescription={
+            "Eine To-Do-App, die wir in einem Team von vier Personen innerhalb eines Zeitraums von zwei Wochen im Rahmen des Le Wagon-Bootcamps entwickelt haben. Um die Benutzer zu motivieren, haben wir positive Verstärkung, einen Social Feed und die Möglichkeit, Erfolge zu verdienen, integriert. Ich habe die Idee präsentiert und war hauptsächlich verantwortlich für die abschließende Präsentation, die Backend-Entwicklung, das Deployment auf Heroku sowie die Verwaltung des Trello-Boards."
+          }
           toolsSize={"md:w-96"}
           imageSize={"w-32"}
           gitHubLink={"https://github.com/JuliaKleber/ToDoCoach"}
@@ -56,7 +58,9 @@ const Projects = ({ darkMode, language }) => {
           englishDescription={
             "A quiz app built in a team of 4 within 1 week as part of the Le Wagon bootcamp. The users can create quizzes and solve quizzes. I was mainly responsible for the backend."
           }
-          germanDescription={'Eine Quiz-App, die wir in einem Team von vier Personen innerhalb von einer Woche im Rahmen des Le Wagon-Bootcamps entwickelt haben. Die Benutzer können Quizzes erstellen und lösen. Ich war Ideengeber und war hauptsächlich für das Backend verantwortlich.'}
+          germanDescription={
+            "Eine Quiz-App, die wir in einem Team von vier Personen innerhalb von einer Woche im Rahmen des Le Wagon-Bootcamps entwickelt haben. Die Benutzer können Quizzes erstellen und lösen. Ich war Ideengeber und war hauptsächlich für das Backend verantwortlich."
+          }
           toolsSize={"md:w-96"}
           imageSize={"w-48"}
           gitHubLink={"https://github.com/JuliaKleber/QuizWiz"}
@@ -73,7 +77,9 @@ const Projects = ({ darkMode, language }) => {
           englishDescription={
             "An app where the user can retrieve metadata about musicians, albums, and songs. Several endpoints from the Spotify and GetSongBPM APIs have already been included. I plan to also integrate the Spotify player and provide song recommendations based on the user's taste."
           }
-          germanDescription={'Eine App, in der der Nutzer Metadaten zu Musikern, Alben und Songs abrufen kann. Mehrere Endpunkte von den Spotify- und GetSongBPM-APIs wurden bereits integriert. Ich plane außerdem, den Spotify-Player einzubinden und Song-Empfehlungen basierend auf dem Musikgeschmack des Benutzers bereitzustellen.'}
+          germanDescription={
+            "Eine App, in der Nutzer Metadaten zu Musikern, Alben und Songs abrufen können. Mehrere Endpunkte von den Spotify- und GetSongBPM-APIs wurden bereits integriert. Ich plane außerdem, den Spotify-Player einzubinden und Song-Empfehlungen basierend auf dem Musikgeschmack des Nutzers bereitzustellen."
+          }
           toolsSize={"md:w-64"}
           imageSize={"w-32"}
           gitHubLink={"https://github.com/JuliaKleber/MusicInsights"}
@@ -88,7 +94,7 @@ const Projects = ({ darkMode, language }) => {
           title={"Portfolio Page"}
           tools={["React", "Tailwind CSS"]}
           englishDescription={"My portfolio page"}
-          germanDescription={'Meine Portfolio Seite'}
+          germanDescription={"Meine Portfolio Seite"}
           toolsSize={"md:w-48"}
           imageSize={"w-32"}
           gitHubLink={"https://github.com/JuliaKleber/PortfolioPage"}
@@ -109,7 +115,7 @@ const Projects = ({ darkMode, language }) => {
             "React Router",
           ]}
           englishDescription={"A recipe storage app"}
-          germanDescription={'Ein Rezeptbuch'}
+          germanDescription={"Ein Rezeptbuch"}
           toolsSize={"md:w-56"}
           imageSize={"w-32"}
           gitHubLink={"https://github.com/JuliaKleber/MeineRezepte"}
@@ -124,7 +130,7 @@ const Projects = ({ darkMode, language }) => {
           title={"Mastermind"}
           tools={["React", "CSS"]}
           englishDescription={"A Mastermind game built with React"}
-          germanDescription={'Ein Mastermind Spiel, entwickelt mit React'}
+          germanDescription={"Ein Mastermind Spiel, entwickelt mit React"}
           toolsSize={"md:w-48"}
           imageSize={"w-40"}
           gitHubLink={"https://github.com/JuliaKleber/MastermindReact"}
@@ -139,7 +145,9 @@ const Projects = ({ darkMode, language }) => {
           title={"Mastermind"}
           tools={["React Native"]}
           englishDescription={"A Mastermind game built with React Native"}
-          germanDescription={'Ein Mastermin Spiel, entwickelt mit React Native'}
+          germanDescription={
+            "Ein Mastermind Spiel, entwickelt mit React Native"
+          }
           toolsSize={"md:w-48"}
           imageSize={"w-20"}
           gitHubLink={"https://github.com/JuliaKleber/MastermindReactNative"}
@@ -154,7 +162,7 @@ const Projects = ({ darkMode, language }) => {
           title={"Minesweeper"}
           tools={["Vanilla JS", "Bootstrap"]}
           englishDescription={"A Minesweeper game"}
-          germanDescription={'Minesweeper'}
+          germanDescription={"Eine Implementierung des Minesweeper Spiels"}
           toolsSize={"md:w-48"}
           imageSize={"w-40"}
           gitHubLink={"https://github.com/JuliaKleber/Minesweeper"}
@@ -168,8 +176,12 @@ const Projects = ({ darkMode, language }) => {
           language={language}
           title={"Tic Tac Toe"}
           tools={["Vanilla JS", "CSS", "Canvas"]}
-          englishDescription={"A Tic Tac Toe game with one and two player modes"}
-          germanDescription={'Ein Tic Tac Toe Spiel für ein und für zwei Spieler'}
+          englishDescription={
+            "A Tic Tac Toe game with one and two player modes"
+          }
+          germanDescription={
+            "Ein Tic Tac Toe Spiel für ein und für zwei Spieler"
+          }
           toolsSize={"md:w-56"}
           imageSize={"w-32"}
           gitHubLink={"https://github.com/JuliaKleber/TicTacToe"}

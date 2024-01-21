@@ -11,17 +11,20 @@ const ToggleMode = ({ darkMode, setDarkMode }) => {
   };
 
   return (
-    // <div className="p-5 pb-0 text-xl flex flex-row justify-center 2xl:justify-center">
-    <div className='p-5 text-2xl'>
+    <div className="p-5 text-2xl">
       <FontAwesomeIcon
         icon={faMoon}
         className={`cursor-pointer ${moonVisible ? "hidden" : "block"}`}
         onClick={() => toggleMode()}
+        aria-label="Switch to Dark Mode"
+        tabIndex="1"
       />
       <FontAwesomeIcon
         icon={faSun}
         className={`cursor-pointer ${moonVisible ? "block" : "hidden"}`}
         onClick={() => toggleMode()}
+        aria-label="Switch to Light Mode"
+        tabIndex="1"
       />
     </div>
   );

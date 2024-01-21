@@ -11,21 +11,19 @@ function App() {
   );
   const [language, setLanguage] = useState("German");
 
+  const appStyle = `${
+    darkMode ? "bg-gray-800 text-purple-300" : "bg-floralwhite text-darkMagenta"
+  }`;
+
   return (
-    <div
-      className={`${
-        darkMode
-          ? "bg-gray-800 text-purple-300"
-          : "bg-floralwhite text-darkMagenta"
-      }`}
-    >
-      <div className='flex flex-row justify-center'>
+    <div className={appStyle}>
+      <div className="flex flex-row justify-center">
         <ToggleMode darkMode={darkMode} setDarkMode={setDarkMode} />
         <ToggleLanguage language={language} setLanguage={setLanguage} />
       </div>
       <div className={`flex flex-col items-center`}>
         <Profile darkMode={darkMode} language={language} />
-        <BouncingArrow darkMode={darkMode} language={language}/>
+        <BouncingArrow darkMode={darkMode} language={language} />
         <Projects darkMode={darkMode} language={language} />
       </div>
     </div>

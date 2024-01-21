@@ -3,7 +3,7 @@ import Bio from "./Bio";
 import Hobbies from "./Hobbies";
 import Toolkit from "./Toolkit";
 import Contact from "./Contact";
-import DivisionBar from './DivisionBar';
+import DivisionBar from "./DivisionBar";
 
 const Profile = ({ darkMode, language }) => {
   return (

@@ -12,7 +12,8 @@ const ToggleLanguage = ({ language, setLanguage }) => {
           onClick={() => setLanguage("English")}
           role="button"
           aria-label="Change to English language"
-          className="h-8"
+          className="h-8 cursor-pointer"
+          tabIndex="1"
         />
       ) : (
         <img
@@ -21,7 +22,8 @@ const ToggleLanguage = ({ language, setLanguage }) => {
           onClick={() => setLanguage("German")}
           role="button"
           aria-label="Change to German language"
-          className="h-8"
+          className="h-8 cursor-pointer"
+          tabIndex="1"
         />
       )}
     </div>
