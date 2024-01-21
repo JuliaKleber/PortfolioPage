@@ -33,9 +33,9 @@ const Bio = ({ darkMode, language }) => {
       <p className={paragraphStyle}>
         Auf der Suche nach neuen
         <br />
-        Herausforderungen strebe ich nun danach,
+        Herausforderungen, um meiner neuen
         <br />
-        mich als Entwicklerin zu betätigen.
+        Leidenschaft - dem Coden - nachzukommen
       </p>
     </>
   );

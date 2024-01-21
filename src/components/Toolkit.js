@@ -1,4 +1,5 @@
 import React from "react";
+import reactNativeImage from "../images/React Native.png";
 
 const Toolkit = ({ darkMode }) => {
   return (
@@ -10,27 +11,27 @@ const Toolkit = ({ darkMode }) => {
           <img
             className="m-1 h-12"
             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
-            alt="HTML symbol"
+            alt="HTML icon"
           />
           <img
             className="m-1 h-12"
             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
-            alt="CSS symbol"
+            alt="CSS icon"
           />
           <img
             className="m-1 h-12"
             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg"
-            alt="SASS symbol"
+            alt="SASS icon"
           />
           <img
             className="m-1 h-12"
             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg"
-            alt="Bootstrap symbol"
+            alt="Bootstrap icon"
           />
           <img
             className="m-1 h-12"
             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg"
-            alt="Tailwind symbol"
+            alt="Tailwind icon"
           />
         </div>
 
@@ -38,22 +39,27 @@ const Toolkit = ({ darkMode }) => {
           <img
             className="m-1 h-12 rounded-md"
             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
-            alt="JavaScript symbol"
+            alt="JavaScript icon"
           />
           <img
             className="m-1 h-12"
             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
-            alt="React symbol"
+            alt="React icon"
+          />
+          <img
+            className="m-1 h-12"
+            src={reactNativeImage}
+            alt="React Native icon"
           />
           <img
             className="m-1 h-12"
             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg"
-            alt="Ruby symbol"
+            alt="Ruby icon"
           />
           <img
             className="m-1 h-12"
             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rails/rails-plain-wordmark.svg"
-            alt="Ruby on Rails symbol"
+            alt="Ruby on Rails icon"
           />
         </div>
 
@@ -61,22 +67,27 @@ const Toolkit = ({ darkMode }) => {
           <img
             className="m-1 h-12"
             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
-            alt="Git symbol"
+            alt="Git icon"
           />
           <img
             className={`m-1 h-12 rounded-md ${darkMode && "bg-pink-100"}`}
             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
-            alt="Github symbol"
+            alt="Github icon"
           />
           <img
             className="m-1 h-12"
             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/heroku/heroku-original.svg"
-            alt="Heroku symbol"
+            alt="Heroku icon"
           />
           <img
             className="m-1 h-12"
             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg"
-            alt="VS Code symbol"
+            alt="VS Code icon"
+          />
+          <img
+            className="m-1 h-12"
+            src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg"
+            alt="React Native icon"
           />
         </div>
       </div>
