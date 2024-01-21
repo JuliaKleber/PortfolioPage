@@ -31,11 +31,11 @@ const Bio = ({ darkMode, language }) => {
         Erfahrung in der klinischen Forschung
       </p>
       <p className={paragraphStyle}>
-        Auf der Suche nach neuen
+        Auf der Suche nach neuen beruflichen
         <br />
         Herausforderungen, um meiner neuen
         <br />
-        Leidenschaft - dem Coden - nachzukommen
+        Leidenschaft, dem Coden, nachzugehen
       </p>
     </>
   );
@@ -58,7 +58,7 @@ const Bio = ({ darkMode, language }) => {
         Ich hatte schon immer eine starke Affinität zu Mathematik, logischem
         Denken und dem Lösen von Rätseln. Daher empfinde ich das Coden
         als intellektuell anregend und erfüllend, insbesondere der
-        Aspekt des Problemlösens fasziniert mich.
+        Aspekt des Problemlösens spricht mich an.
       </p>
     </div>
   );
