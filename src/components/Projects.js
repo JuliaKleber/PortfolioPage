@@ -4,7 +4,7 @@ import Project from "./Project";
 const Projects = ({ darkMode, language }) => {
   return (
     <>
-      <h2 className={`my-4 font-cursive text-4xl`}>
+      <h2 className={`my-8 font-cursive text-4xl`}>
         {language === "German" ? "Projekte" : "Projects"}
       </h2>
       <div className="flex flex-row justify-center items-center flex-wrap">

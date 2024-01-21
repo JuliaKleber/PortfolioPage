@@ -40,17 +40,43 @@ const Bio = ({ darkMode, language }) => {
     </>
   );
 
+  const englishMotivation = (
+    <div className="max-w-[400px] md:max-w-[660px]">
+      <p className={paragraphStyle}>
+        I always had a strong affinity to math, logical
+        thinking and solving puzzles. Thus, coding
+        feels like the perfect fit for me. I find it
+        intellectually stimulating and fullfilling and
+        the problem solving aspect is what draws me in.
+      </p>
+    </div>
+  );
+
+  const germanMotivation = (
+    <div className="max-w-[400px] md:max-w-[660px]">
+      <p className={paragraphStyle}>
+        Ich hatte schon immer eine starke Affinität zu Mathematik, logischem
+        Denken und dem Lösen von Rätseln. Daher empfinde ich das Coden
+        als intellektuell anregend und erfüllend, insbesondere der
+        Aspekt des Problemlösens fasziniert mich.
+      </p>
+    </div>
+  );
+
   return (
-    <div className="my-4 flex flex-col md:flex-row items-center justify-center">
-      <img
-        className="h-48 m-3 rounded-md sm:me-4"
-        src={foto}
-        alt="Julia Kleber"
-      />
-      <div className="sm:ms-4 flex flex-col justify-center items-center">
-        <h2 className={`my-2 md:mt-0 font-cursive text-4xl`}>Julia Kleber</h2>
-        {language === "German" ? germanInfo : englishInfo}
+    <div className="my-4 flex flex-col items-center">
+      <div className="flex flex-col md:flex-row items-center justify-center">
+        <img
+          className="h-48 m-3 rounded-md sm:me-4"
+          src={foto}
+          alt="Julia Kleber"
+        />
+        <div className="sm:ms-4 flex flex-col justify-center items-center">
+          <h2 className={`my-2 font-cursive text-4xl`}>Julia Kleber</h2>
+          {language === "German" ? germanInfo : englishInfo}
+        </div>
       </div>
+      {language === "German" ? germanMotivation : englishMotivation}
     </div>
   );
 };
