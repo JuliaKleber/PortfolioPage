@@ -28,10 +28,31 @@ const Projects = ({ darkMode, language }) => {
             "Heroku",
           ]}
           englishDescription={
-            "A task management app built in a team of four within a two-week timeframe as part of the Le Wagon bootcamp. To keep users motivated, positive reinforcement, user connections, and earning achievements are included. I pitched the idea, was primarily responsible for the final pitch, the backend development, deployment on Heroku, and managing the Trello board."
+            <>
+              A task management app built in a team of four within a two-week
+              timeframe as part of the Le Wagon bootcamp. To keep users
+              motivated, positive reinforcement, user connections, and earning
+              achievements are included.
+              <br />
+              <br />I pitched the idea, was primarily responsible for the final
+              pitch, the backend development, deployment on Heroku, and managing
+              the Trello board. I also worked on the frontend.
+            </>
           }
           germanDescription={
-            "Eine To-Do-App, die wir in einem Team von vier Personen innerhalb eines Zeitraums von zwei Wochen im Rahmen des Le Wagon-Bootcamps entwickelt haben. Um die Benutzer zu motivieren, haben wir positive Verstärkung, einen Social Feed und die Möglichkeit, Erfolge zu verdienen, integriert. Ich habe die Idee präsentiert und war hauptsächlich verantwortlich für die abschließende Präsentation, die Backend-Entwicklung, das Deployment auf Heroku sowie die Verwaltung des Trello-Boards."
+            <>
+              Eine To-Do-App, die wir in einem Team von vier Personen innerhalb
+              eines Zeitraums von zwei Wochen im Rahmen des Le Wagon-Bootcamps
+              entwickelt haben. Um die Benutzer zu motivieren, haben wir
+              positive Verstärkung, einen Social Feed und die Möglichkeit,
+              Erfolge zu verdienen, integriert.
+              <br />
+              <br />
+              Ich habe die Idee präsentiert und war hauptsächlich verantwortlich
+              für die Backend-Entwicklung, das Deployment auf Heroku, die
+              Verwaltung des Trello-Boards sowie für die abschließende
+              Präsentation. Außerdem habe ich am Frontend mitgearbeitet.
+            </>
           }
           toolsSize={"md:w-96"}
           imageSize={"w-32"}
@@ -58,10 +79,21 @@ const Projects = ({ darkMode, language }) => {
             "Heroku",
           ]}
           englishDescription={
-            "A quiz app built in a team of 4 within 1 week as part of the Le Wagon bootcamp. The users can create quizzes and solve quizzes. I was mainly responsible for the backend."
+            <>
+              A quiz app built in a team of 4 within 1 week as part of the Le
+              Wagon bootcamp. The users can create quizzes and solve quizzes. I
+              had the idea for the app and was mainly responsible for the
+              backend. I also worked on the frontend.
+            </>
           }
           germanDescription={
-            "Eine Quiz-App, die wir in einem Team von vier Personen innerhalb von einer Woche im Rahmen des Le Wagon-Bootcamps entwickelt haben. Die Benutzer können Quizzes erstellen und lösen. Ich war Ideengeber und hauptsächlich für das Backend verantwortlich."
+            <>
+              Eine Quiz-App, die wir in einem Team von vier Personen innerhalb
+              von einer Woche im Rahmen des Le Wagon-Bootcamps entwickelt haben.
+              Die Benutzer können Quizzes erstellen und lösen. Ich war
+              Ideengeber und hauptsächlich für das Backend verantwortlich.
+              Außerdem habe ich am Frontend mitgearbeitet.
+            </>
           }
           toolsSize={"md:w-96"}
           imageSize={"w-48"}
@@ -77,10 +109,22 @@ const Projects = ({ darkMode, language }) => {
           title={"Music Insights"}
           tools={["React", "Tailwind CSS", "API calls"]}
           englishDescription={
-            "An app where the user can retrieve metadata about musicians, albums, and songs. Several endpoints from the Spotify and GetSongBPM APIs have already been included. I plan to also integrate the Spotify player and provide song recommendations based on the user's taste."
+            <>
+              An app where the user can retrieve metadata about musicians,
+              albums, and songs. Several endpoints from the Spotify and
+              GetSongBPM APIs have already been included. I plan to also
+              integrate the Spotify player and provide song recommendations
+              based on the user's taste.
+            </>
           }
           germanDescription={
-            "Eine App, in der Nutzer Metadaten zu Musikern, Alben und Songs abrufen können. Mehrere Endpunkte von den Spotify- und GetSongBPM-APIs wurden bereits integriert. Ich plane außerdem, den Spotify-Player einzubinden und Song-Empfehlungen basierend auf dem Musikgeschmack des Nutzers bereitzustellen."
+            <>
+              Eine App, in der Nutzer Metadaten zu Musikern, Alben und Songs
+              abrufen können. Mehrere Endpunkte von den Spotify- und
+              GetSongBPM-APIs wurden bereits integriert. Ich plane außerdem, den
+              Spotify-Player einzubinden und Song-Empfehlungen basierend auf dem
+              Musikgeschmack des Nutzers bereitzustellen.
+            </>
           }
           toolsSize={"md:w-64"}
           imageSize={"w-32"}
