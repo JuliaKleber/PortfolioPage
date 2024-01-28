@@ -158,7 +158,6 @@ const Projects = ({ darkMode, language }) => {
             "SCSS",
             "Express JS",
             "CRUD actions",
-            "React Router",
           ]}
           englishDescription={"A recipe storage app"}
           germanDescription={"Ein Rezeptbuch"}
