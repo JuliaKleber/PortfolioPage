@@ -117,7 +117,7 @@ const Projects = ({ darkMode, language }) => {
           ]}
           englishDescription={
             <>
-              This is a React application for managing and searching recipes. On
+              A React application for managing and searching recipes. On
               the home screen, the recipes of the month, i.e., recipes where the
               ingredients are in season, are shown.
               <br /> <br />
@@ -133,7 +133,7 @@ const Projects = ({ darkMode, language }) => {
           }
           germanDescription={
             <>
-              Das ist eine React-Anwendung zur Verwaltung und Suche von
+              Eine React-Anwendung zur Verwaltung und Suche von
               Rezepten. Auf dem Startbildschirm werden die Rezepte angezeigt,
               deren Zutaten im aktuellen Monat Saison haben.
               <br /> <br />
