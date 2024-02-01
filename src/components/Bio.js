@@ -1,5 +1,5 @@
 import React from "react";
-import foto from "../images/JuliaKleber.jpg";
+import foto from "../images/MeDark.jpg";
 
 const Bio = ({ darkMode, language }) => {
   const paragraphStyle = `m-2 text-center ${
