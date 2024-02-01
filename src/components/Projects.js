@@ -106,24 +106,78 @@ const Projects = ({ darkMode, language }) => {
         <Project
           darkMode={darkMode}
           language={language}
+          title={"Meine Rezepte"}
+          tools={[
+            "React",
+            "React Router",
+            "Zustand",
+            "SCSS",
+            "Express JS",
+            "CRUD actions",
+          ]}
+          englishDescription={
+            <>
+              This is a React application for managing and searching recipes. On
+              the home screen, the recipes of the month, i.e., recipes where the
+              ingredients are in season, are shown.
+              <br /> <br />
+              Since this app is intended for my personal use only, user
+              authentication has been omitted for simplicity. Instead of using a
+              regular database, I store the recipes in a simple JSON file. As a
+              result, the recipes don't have unique IDs. Given that recipes lack
+              IDs, the recipe name serves as the unique identifier. A check for
+              name uniqueness is implemented when adding a new recipe. The
+              requirement for unique names shouldn't be an issue since the app
+              is designed for a single user.
+            </>
+          }
+          germanDescription={
+            <>
+              Das ist eine React-Anwendung zur Verwaltung und Suche von
+              Rezepten. Auf dem Startbildschirm werden die Rezepte angezeigt,
+              deren Zutaten im aktuellen Monat Saison haben.
+              <br /> <br />
+              Da diese App ausschließlich für meinen persönlichen Gebrauch
+              bestimmt ist, wurde die Benutzerauthentifizierung der Einfachheit
+              halber weggelassen. Anstelle einer herkömmlichen Datenbank
+              speichere ich die Rezepte in einer einfachen JSON-Datei. Die
+              Rezepte haben dementsprechend keine eindeutigen IDs. Da den
+              Rezepten IDs fehlen, dient der Rezeptname zur eindeutigen
+              Zuordnung. Eine Überprüfung auf eindeutige Namen wird
+              durchgeführt, wenn ein neues Rezept hinzugefügt wird. Die
+              Anforderung an eindeutige Namen sollte kein Problem darstellen, da
+              die App für einen einzelnen Benutzer konzipiert ist.
+            </>
+          }
+          toolsSize={"md:w-96"}
+          imageSize={"w-32"}
+          gitHubLink={"https://github.com/JuliaKleber/MeineRezepte"}
+          deployLink={""}
+          imageLink={
+            "https://github.com/JuliaKleber/MeineRezepte/assets/142741980/7c368824-64d8-4fd5-89e9-af8f6bf602dd"
+          }
+        />
+        <Project
+          darkMode={darkMode}
+          language={language}
           title={"Music Insights"}
-          tools={["React", "Tailwind CSS", "API calls"]}
+          tools={["React", "Tailwind CSS", "Public API calls"]}
           englishDescription={
             <>
               An app where the user can retrieve metadata about musicians,
-              albums, and songs. Several endpoints from the Spotify and
-              GetSongBPM APIs have already been included. I plan to also
-              integrate the Spotify player and provide song recommendations
+              albums, and songs. Several endpoints from the Spotify,
+              GetSongBPM and MusicBrainz APIs have already been integrated. I plan to also
+              include the Spotify player and provide song recommendations
               based on the user's taste.
             </>
           }
           germanDescription={
             <>
               Eine App, in der Nutzer Metadaten zu Musikern, Alben und Songs
-              abrufen können. Mehrere Endpunkte von den Spotify- und
-              GetSongBPM-APIs wurden bereits integriert. Ich plane außerdem, den
-              Spotify-Player einzubinden und Song-Empfehlungen basierend auf dem
-              Musikgeschmack des Nutzers bereitzustellen.
+              abrufen können. Mehrere Endpunkte der Spotify-, GetSongBPM- und
+              MusicBrainz-APIs wurden bereits integriert. Ich plane außerdem,
+              den Spotify-Player einzubinden und Song-Empfehlungen basierend auf
+              dem Musikgeschmack des Nutzers bereitzustellen.
             </>
           }
           toolsSize={"md:w-64"}
@@ -147,26 +201,6 @@ const Projects = ({ darkMode, language }) => {
           deployLink={"https://juliakleber.github.io/PortfolioPage/"}
           imageLink={
             "https://github.com/JuliaKleber/PortfolioPage/assets/142741980/936edea0-654e-4d59-9fcc-f89c5c99c11e"
-          }
-        />
-        <Project
-          darkMode={darkMode}
-          language={language}
-          title={"Meine Rezepte"}
-          tools={[
-            "React",
-            "SCSS",
-            "Express JS",
-            "CRUD actions",
-          ]}
-          englishDescription={"A recipe storage app"}
-          germanDescription={"Ein Rezeptbuch"}
-          toolsSize={"md:w-56"}
-          imageSize={"w-32"}
-          gitHubLink={"https://github.com/JuliaKleber/MeineRezepte"}
-          deployLink={""}
-          imageLink={
-            "https://github.com/JuliaKleber/MeineRezepte/assets/142741980/7c368824-64d8-4fd5-89e9-af8f6bf602dd"
           }
         />
         <Project
