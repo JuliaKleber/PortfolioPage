@@ -6,7 +6,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        cursive: ['Pacifico', 'sans-serif'],
+        cursive: ['Pacifico', 'cursive'],
       },
       colors: {
         crimson: '#DC143C',

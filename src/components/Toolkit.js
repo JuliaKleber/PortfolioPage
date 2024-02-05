@@ -86,8 +86,8 @@ const Toolkit = ({ darkMode }) => {
           />
           <img
             className="m-1 h-12"
-            src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg"
-            alt="React Native icon"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg"
+            alt="Linux icon"
           />
         </div>
       </div>

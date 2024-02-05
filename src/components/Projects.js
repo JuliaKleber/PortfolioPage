@@ -111,8 +111,9 @@ const Projects = ({ darkMode, language }) => {
             "React",
             "React Router",
             "Zustand",
+            'Fuse.js',
             "SCSS",
-            "Express JS",
+            "Express.js",
             "CRUD actions",
           ]}
           englishDescription={
