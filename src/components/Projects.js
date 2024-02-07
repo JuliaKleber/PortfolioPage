@@ -111,15 +111,15 @@ const Projects = ({ darkMode, language }) => {
             "React",
             "React Router",
             "Zustand",
-            'Fuse.js',
+            "Fuse.js",
             "SCSS",
             "Express.js",
             "CRUD actions",
           ]}
           englishDescription={
             <>
-              A React application for managing and searching recipes. On
-              the home screen, the recipes of the month, i.e., recipes where the
+              A React application for managing and searching recipes. On the
+              home screen, the recipes of the month, i.e., recipes where the
               ingredients are in season, are shown.
               <br /> <br />
               Since this app is intended for my personal use only, user
@@ -134,9 +134,9 @@ const Projects = ({ darkMode, language }) => {
           }
           germanDescription={
             <>
-              Eine React-Anwendung zur Verwaltung und Suche von
-              Rezepten. Auf dem Startbildschirm werden die Rezepte angezeigt,
-              deren Zutaten im aktuellen Monat Saison haben.
+              Eine React-Anwendung zur Verwaltung und Suche von Rezepten. Auf
+              dem Startbildschirm werden die Rezepte angezeigt, deren Zutaten im
+              aktuellen Monat Saison haben.
               <br /> <br />
               Da diese App ausschließlich für meinen persönlichen Gebrauch
               bestimmt ist, wurde die Benutzerauthentifizierung der Einfachheit
@@ -162,14 +162,14 @@ const Projects = ({ darkMode, language }) => {
           darkMode={darkMode}
           language={language}
           title={"Music Insights"}
-          tools={["React", "Tailwind CSS", "Public API calls"]}
+          tools={["React", "Zustand", "Tailwind CSS", "Public API calls"]}
           englishDescription={
             <>
               An app where the user can retrieve metadata about musicians,
-              albums, and songs. Several endpoints from the Spotify,
-              GetSongBPM and MusicBrainz APIs have already been integrated. I plan to also
-              include the Spotify player and provide song recommendations
-              based on the user's taste.
+              albums, and songs. Several endpoints from the Spotify, GetSongBPM
+              and MusicBrainz APIs have already been integrated. I plan to also
+              include the Spotify player and provide song recommendations based
+              on the user's taste.
             </>
           }
           germanDescription={
