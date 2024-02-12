@@ -30,7 +30,7 @@ const Toolkit = ({ darkMode }) => {
           />
           <img
             className="m-1 h-12"
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg"
             alt="Tailwind icon"
           />
         </div>
