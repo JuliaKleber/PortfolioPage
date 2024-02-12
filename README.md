@@ -5,7 +5,6 @@ This is a portfolio page to showcase my projects. You can switch between dark an
 ## Built with
 
 - React
-- Zustand
 - Tailwind
 
 ## Link
