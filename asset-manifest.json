@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/PortfolioPage/static/css/main.b3a96b8a.css",
-    "main.js": "/PortfolioPage/static/js/main.dca0695c.js",
+    "main.js": "/PortfolioPage/static/js/main.8cfacbb8.js",
     "static/media/MeDark.jpg": "/PortfolioPage/static/media/MeDark.28d6de2af7c184cc11d9.jpg",
     "static/media/React Native.png": "/PortfolioPage/static/media/React Native.90bd589442ed4516b254.png",
     "static/media/codewars_red.svg": "/PortfolioPage/static/media/codewars_red.ce14d609044137db2ae3e5b7c6713dff.svg",
     "index.html": "/PortfolioPage/index.html",
     "main.b3a96b8a.css.map": "/PortfolioPage/static/css/main.b3a96b8a.css.map",
-    "main.dca0695c.js.map": "/PortfolioPage/static/js/main.dca0695c.js.map"
+    "main.8cfacbb8.js.map": "/PortfolioPage/static/js/main.8cfacbb8.js.map"
   },
   "entrypoints": [
     "static/css/main.b3a96b8a.css",
-    "static/js/main.dca0695c.js"
+    "static/js/main.8cfacbb8.js"
   ]
 }
