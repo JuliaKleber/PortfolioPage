@@ -38,6 +38,11 @@
       "last 1 safari version"
     ]
   },
+  "engines": {
+    "node": "16.15.1",
+    "npm": "8.11.0"
+  },
+  "author": "Julia",
   "devDependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "gh-pages": "^6.1.1",
