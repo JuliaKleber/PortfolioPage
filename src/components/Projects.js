@@ -54,7 +54,6 @@ const Projects = ({ darkMode, language }) => {
               Präsentation. Außerdem habe ich am Frontend mitgearbeitet.
             </>
           }
-          toolsSize={"md:w-96"}
           imageSize={"w-32"}
           gitHubLink={"https://github.com/JuliaKleber/ToDoCoach"}
           deployLink={"https://to-do-coach-f75c7e0f7968.herokuapp.com/"}
@@ -95,7 +94,6 @@ const Projects = ({ darkMode, language }) => {
               Außerdem habe ich am Frontend mitgearbeitet.
             </>
           }
-          toolsSize={"md:w-96"}
           imageSize={"w-48"}
           gitHubLink={"https://github.com/JuliaKleber/QuizWiz"}
           deployLink={""}
@@ -150,7 +148,6 @@ const Projects = ({ darkMode, language }) => {
               die App für einen einzelnen Benutzer konzipiert ist.
             </>
           }
-          toolsSize={"md:w-96"}
           imageSize={"w-32"}
           gitHubLink={"https://github.com/JuliaKleber/MeineRezepte"}
           deployLink={""}
@@ -181,7 +178,6 @@ const Projects = ({ darkMode, language }) => {
               dem Musikgeschmack des Nutzers bereitzustellen.
             </>
           }
-          toolsSize={"md:w-64"}
           imageSize={"w-32"}
           gitHubLink={"https://github.com/JuliaKleber/MusicInsights"}
           deployLink={"https://juliakleber.github.io/MusicInsights/"}
@@ -196,7 +192,6 @@ const Projects = ({ darkMode, language }) => {
           tools={["React", "Tailwind CSS"]}
           englishDescription={"My portfolio page"}
           germanDescription={"Meine Portfolio Seite"}
-          toolsSize={"md:w-48"}
           imageSize={"w-32"}
           gitHubLink={"https://github.com/JuliaKleber/PortfolioPage"}
           deployLink={"https://juliakleber.github.io/PortfolioPage/"}
@@ -211,7 +206,6 @@ const Projects = ({ darkMode, language }) => {
           tools={["React", "CSS"]}
           englishDescription={"A Mastermind game built with React"}
           germanDescription={"Ein Mastermind Spiel, entwickelt mit React"}
-          toolsSize={"md:w-48"}
           imageSize={"w-40"}
           gitHubLink={"https://github.com/JuliaKleber/MastermindReact"}
           deployLink={"https://juliakleber.github.io/MastermindReact/"}
@@ -228,7 +222,6 @@ const Projects = ({ darkMode, language }) => {
           germanDescription={
             "Ein Mastermind Spiel, entwickelt mit React Native"
           }
-          toolsSize={"md:w-48"}
           imageSize={"w-20"}
           gitHubLink={"https://github.com/JuliaKleber/MastermindReactNative"}
           deployLink={""}
@@ -243,7 +236,6 @@ const Projects = ({ darkMode, language }) => {
           tools={["Vanilla JS", "Bootstrap"]}
           englishDescription={"A Minesweeper game"}
           germanDescription={"Eine Implementierung des Minesweeper Spiels"}
-          toolsSize={"md:w-48"}
           imageSize={"w-40"}
           gitHubLink={"https://github.com/JuliaKleber/Minesweeper"}
           deployLink={"https://juliakleber.github.io/Minesweeper/"}
@@ -262,7 +254,6 @@ const Projects = ({ darkMode, language }) => {
           germanDescription={
             "Ein Tic Tac Toe Spiel für ein und für zwei Spieler"
           }
-          toolsSize={"md:w-56"}
           imageSize={"w-32"}
           gitHubLink={"https://github.com/JuliaKleber/TicTacToe"}
           deployLink={"https://juliakleber.github.io/TicTacToe/"}

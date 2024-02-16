@@ -25,7 +25,7 @@ const Contact = ({ darkMode }) => {
           target="_blank"
           rel="noreferrer"
         >
-          <img className="m-3 h-12" alt="codewars icon" src={codewarsImage} />
+          <img className="m-3 h-12" alt="codewars" src={codewarsImage} />
         </a>
 
         <a
@@ -35,7 +35,7 @@ const Contact = ({ darkMode }) => {
         >
           <img
             className="m-3 h-12"
-            alt="linkedin icon"
+            alt="linkedin"
             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg"
           />
         </a>

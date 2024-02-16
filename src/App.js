@@ -8,7 +8,9 @@ function App() {
   const [darkMode, setDarkMode] = useState(
     window.matchMedia("(prefers-color-scheme: dark)").matches
   );
-  const [language, setLanguage] = useState("German");
+  const [language, setLanguage] = useState(
+    navigator.language.includes("en" || "EN") ? "English" : "German"
+  );
 
   const appStyle = `${
     darkMode ? "bg-gray-800 text-purple-300" : "bg-floralwhite text-darkMagenta"

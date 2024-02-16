@@ -43,11 +43,10 @@ const Bio = ({ darkMode, language }) => {
   const englishMotivation = (
     <div className="max-w-[400px] md:max-w-[660px]">
       <p className={paragraphStyle}>
-        I always had a strong affinity to math, logical
-        thinking and solving puzzles. Thus, coding
-        feels like the perfect fit for me. I find it
-        intellectually stimulating and fullfilling and
-        the problem solving aspect is what draws me in.
+        I always had a strong affinity to math, logical thinking and solving
+        puzzles. Thus, coding feels like the perfect fit for me. I find it
+        intellectually stimulating and fullfilling and the problem solving
+        aspect is what draws me in.
       </p>
     </div>
   );
@@ -56,9 +55,9 @@ const Bio = ({ darkMode, language }) => {
     <div className="max-w-[400px] md:max-w-[660px]">
       <p className={paragraphStyle}>
         Ich hatte schon immer eine starke Affinität zu Mathematik, logischem
-        Denken und dem Lösen von Rätseln. Daher empfinde ich das Coden
-        als intellektuell anregend und erfüllend, insbesondere der
-        Aspekt des Problemlösens spricht mich an.
+        Denken und dem Lösen von Rätseln. Daher empfinde ich das Coden als
+        intellektuell anregend und erfüllend, insbesondere der Aspekt des
+        Problemlösens spricht mich an.
       </p>
     </div>
   );
@@ -76,7 +75,9 @@ const Bio = ({ darkMode, language }) => {
           {language === "German" ? germanInfo : englishInfo}
         </div>
       </div>
-      {language === "German" ? germanMotivation : englishMotivation}
+      <div className="hidden sm:block">
+        {language === "English" && englishMotivation}
+      </div>
     </div>
   );
 };

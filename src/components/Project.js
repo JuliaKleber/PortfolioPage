@@ -1,4 +1,4 @@
-import React from "react";
+import { useState } from "react";
 
 const Project = ({
   darkMode,
@@ -10,9 +10,9 @@ const Project = ({
   deployLink,
   englishDescription,
   germanDescription,
-  toolsSize,
   tools,
 }) => {
+  const [imageAvailable, setImageAvailable] = useState(true);
   const goToDeploy = () => {
     window.location.href = deployLink;
   };
@@ -64,9 +64,10 @@ const Project = ({
 
   const image = (
     <img
-      className={`hidden sm:block mt-4 ms-2 ${imageSize} rounded-sm shadow-sm`}
+      className={`hidden sm:block ms-5 m-2 ${imageSize} rounded-sm shadow-sm`}
       src={imageLink}
       alt={`project: ${title}`}
+      onError={(e) => setImageAvailable(false)}
     />
   );
 
@@ -80,18 +81,18 @@ const Project = ({
         <div className="flex flex-col justify-center items-center">
           {header}
           <div
-            className={`sm:w-48 ${toolsSize} flex flex-row flex-wrap justify-center items-center`}
+            className={`w-fit flex flex-row flex-wrap justify-center items-center`}
           >
             {toolsList}
           </div>
           {buttons}
         </div>
 
-        {image}
+        {imageAvailable && image}
       </div>
 
       <p className={`my-3 text-center`}>
-        {language === "German" ? germanDescription : englishDescription}
+        {language === 'German' ? germanDescription : englishDescription}
       </p>
     </div>
   );
