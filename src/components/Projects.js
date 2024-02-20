@@ -11,99 +11,6 @@ const Projects = ({ darkMode, language }) => {
         <Project
           darkMode={darkMode}
           language={language}
-          title={"To Do Coach"}
-          tools={[
-            "Ruby on Rails",
-            "HTML",
-            "JavaScript",
-            "Stimulus",
-            "SCSS",
-            "Bootstrap",
-            "CRUD actions",
-            "Routing",
-            "PostgreSQL",
-            "ORM",
-            "Canban",
-            "Trello",
-            "Heroku",
-          ]}
-          englishDescription={
-            <>
-              A task management app built in a team of four within a two-week
-              timeframe as part of the Le Wagon bootcamp. To keep users
-              motivated, positive reinforcement, user connections, and earning
-              achievements are included.
-              <br />
-              <br />I pitched the idea, was primarily responsible for the final
-              pitch, the backend development, deployment on Heroku, and managing
-              the Trello board. I also worked on the frontend.
-            </>
-          }
-          germanDescription={
-            <>
-              Eine To-Do-App, die wir in einem Team von vier Personen innerhalb
-              eines Zeitraums von zwei Wochen im Rahmen des Le Wagon-Bootcamps
-              entwickelt haben. Um die Benutzer zu motivieren, haben wir
-              positive Verstärkung, einen Social Feed und die Möglichkeit,
-              Erfolge zu verdienen, integriert.
-              <br />
-              <br />
-              Ich habe die Idee präsentiert und war hauptsächlich verantwortlich
-              für die Backend-Entwicklung, das Deployment auf Heroku, die
-              Verwaltung des Trello-Boards sowie für die abschließende
-              Präsentation. Außerdem habe ich am Frontend mitgearbeitet.
-            </>
-          }
-          imageSize={"w-32"}
-          gitHubLink={"https://github.com/JuliaKleber/ToDoCoach"}
-          deployLink={"https://to-do-coach-f75c7e0f7968.herokuapp.com/"}
-          imageLink={
-            "https://github.com/GoldieCrystal/ToDoCoach/assets/142741980/efaae820-1574-4fe7-ae1f-1cf062fc7e23"
-          }
-        />
-        <Project
-          darkMode={darkMode}
-          language={language}
-          title={"QuizWiz"}
-          tools={[
-            "Ruby on Rails",
-            "HTML",
-            "JavaScript",
-            "Stimulus",
-            "SCSS",
-            "Bootstrap",
-            "CRUD actions",
-            "Routing",
-            "PostgreSQL",
-            "Heroku",
-          ]}
-          englishDescription={
-            <>
-              A quiz app built in a team of 4 within 1 week as part of the Le
-              Wagon bootcamp. The users can create quizzes and solve quizzes. I
-              had the idea for the app and was mainly responsible for the
-              backend. I also worked on the frontend.
-            </>
-          }
-          germanDescription={
-            <>
-              Eine Quiz-App, die wir in einem Team von vier Personen innerhalb
-              von einer Woche im Rahmen des Le Wagon-Bootcamps entwickelt haben.
-              Die Benutzer können Quizzes erstellen und lösen. Ich war
-              Ideengeber und hauptsächlich für das Backend verantwortlich.
-              Außerdem habe ich am Frontend mitgearbeitet.
-            </>
-          }
-          imageSize={"w-48"}
-          gitHubLink={"https://github.com/JuliaKleber/QuizWiz"}
-          deployLink={""}
-          imageLink={
-            "https://github.com/JuliaKleber/QuizWiz/assets/142741980/2f7a2ce2-09c0-4110-ad90-d607e9bee5af"
-          }
-        />
-        <Project
-          darkMode={darkMode}
-          language={language}
           title={"Meine Rezepte"}
           tools={[
             "React",
@@ -183,6 +90,96 @@ const Projects = ({ darkMode, language }) => {
           deployLink={"https://juliakleber.github.io/MusicInsights/"}
           imageLink={
             "https://github.com/JuliaKleber/MusicInsights/assets/142741980/98417c71-cc1b-47bf-9e91-d97b630cfc01"
+          }
+        />
+        <Project
+          darkMode={darkMode}
+          language={language}
+          title={"To Do Coach"}
+          tools={[
+            "Ruby on Rails",
+            "HTML",
+            "JavaScript",
+            "Stimulus",
+            "SCSS",
+            "Bootstrap",
+            "CRUD actions",
+            "Routing",
+            "PostgreSQL",
+            "ORM",
+            "Canban",
+            "Trello",
+            "Heroku",
+          ]}
+          englishDescription={
+            <>
+              A task management app built in a team of four within a two-week
+              timeframe. To keep users motivated, positive reinforcement, user
+              connections, and earning achievements are included.
+              <br />
+              <br />I was primarily responsible for the backend development,
+              deployment on Heroku, and managing the Trello board. I also worked
+              on the frontend.
+            </>
+          }
+          germanDescription={
+            <>
+              Eine To-Do-App, die wir in einem Team von vier Personen innerhalb
+              eines Zeitraums von zwei Wochen entwickelt haben. Um die Benutzer
+              zu motivieren, haben wir positive Verstärkung, einen Social Feed
+              und die Möglichkeit, Erfolge zu verdienen, integriert.
+              <br />
+              <br />
+              Ich war hauptsächlich verantwortlich für die Backend-Entwicklung,
+              das Deployment auf Heroku und die Verwaltung des Trello-Boards.
+              Außerdem habe ich am Frontend mitgearbeitet.
+            </>
+          }
+          imageSize={"w-32"}
+          gitHubLink={"https://github.com/JuliaKleber/ToDoCoach"}
+          deployLink={"https://to-do-coach-f75c7e0f7968.herokuapp.com/"}
+          imageLink={
+            "https://github.com/GoldieCrystal/ToDoCoach/assets/142741980/efaae820-1574-4fe7-ae1f-1cf062fc7e23"
+          }
+        />
+        <Project
+          darkMode={darkMode}
+          language={language}
+          title={"QuizWiz"}
+          tools={[
+            "Ruby on Rails",
+            "HTML",
+            "JavaScript",
+            "Stimulus",
+            "SCSS",
+            "Bootstrap",
+            "CRUD actions",
+            "Routing",
+            "PostgreSQL",
+            "Heroku",
+          ]}
+          englishDescription={
+            <>
+              A quiz app built in a team of four within one week. The users can
+              create quizzes and solve quizzes. I had the idea for the app and
+              was mainly responsible for the backend. I also worked on the
+              frontend.
+            </>
+          }
+          germanDescription={
+            <>
+              Eine Quiz-App, die wir in einem Team von vier Personen innerhalb
+              von einer Woche entwickelt haben. Die Benutzer können Quizzes
+              erstellen und lösen. Ich war Ideengeber und hauptsächlich für das
+              Backend verantwortlich. Außerdem habe ich am Frontend
+              mitgearbeitet.
+            </>
+          }
+          imageSize={"w-48"}
+          gitHubLink={"https://github.com/JuliaKleber/QuizWiz"}
+          deployLink={""}
+          imageLink={
+            "https://github.com/JuliaKleber/QuizWiz/assets/142741980/2f7a2ce2-09c0-4110-ad90-d607e9bee5af"
           }
         />
         <Project
