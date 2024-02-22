@@ -19,6 +19,9 @@ const Projects = ({ darkMode, language }) => {
             "Fuse.js",
             "SCSS",
             "Express.js",
+            'MongoDB',
+            'Docker',
+            'User authentication',
             "CRUD actions",
           ]}
           englishDescription={
@@ -26,15 +29,6 @@ const Projects = ({ darkMode, language }) => {
               A React application for managing and searching recipes. On the
               home screen, the recipes of the month, i.e., recipes where the
               ingredients are in season, are shown.
-              <br /> <br />
-              Since this app is intended for my personal use only, user
-              authentication has been omitted for simplicity. Instead of using a
-              regular database, I store the recipes in a simple JSON file. As a
-              result, the recipes don't have unique IDs. Given that recipes lack
-              IDs, the recipe name serves as the unique identifier. A check for
-              name uniqueness is implemented when adding a new recipe. The
-              requirement for unique names shouldn't be an issue since the app
-              is designed for a single user.
             </>
           }
           germanDescription={
@@ -42,24 +36,13 @@ const Projects = ({ darkMode, language }) => {
               Eine React-Anwendung zur Verwaltung und Suche von Rezepten. Auf
               dem Startbildschirm werden die Rezepte angezeigt, deren Zutaten im
               aktuellen Monat Saison haben.
-              <br /> <br />
-              Da diese App ausschließlich für meinen persönlichen Gebrauch
-              bestimmt ist, wurde die Benutzerauthentifizierung der Einfachheit
-              halber weggelassen. Anstelle einer herkömmlichen Datenbank
-              speichere ich die Rezepte in einer einfachen JSON-Datei. Die
-              Rezepte haben dementsprechend keine eindeutigen IDs. Da den
-              Rezepten IDs fehlen, dient der Rezeptname zur eindeutigen
-              Zuordnung. Eine Überprüfung auf eindeutige Namen wird
-              durchgeführt, wenn ein neues Rezept hinzugefügt wird. Die
-              Anforderung an eindeutige Namen sollte kein Problem darstellen, da
-              die App für einen einzelnen Benutzer konzipiert ist.
             </>
           }
-          imageSize={"w-32"}
+          imageSize={"w-48"}
           gitHubLink={"https://github.com/JuliaKleber/MeineRezepte"}
           deployLink={""}
           imageLink={
-            "https://github.com/JuliaKleber/MeineRezepte/assets/142741980/7c368824-64d8-4fd5-89e9-af8f6bf602dd"
+            "https://github.com/JuliaKleber/MeineRezepte/assets/142741980/0158f416-91fe-416b-a160-ebdda63c36e7"
           }
         />
         <Project
