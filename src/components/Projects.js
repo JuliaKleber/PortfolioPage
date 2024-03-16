@@ -52,7 +52,7 @@ const Projects = ({ darkMode, language }) => {
           tools={["React", "Zustand", "Tailwind CSS", "Public API calls"]}
           englishDescription={
             <>
-              An app where the user can retrieve metadata about musicians,
+              An app where the user can retrieve metadata about artists,
               albums, and songs. Several endpoints from the Spotify, GetSongBPM
               and MusicBrainz APIs have already been integrated. I plan to also
               include the Spotify player and provide song recommendations based
@@ -61,7 +61,7 @@ const Projects = ({ darkMode, language }) => {
           }
           germanDescription={
             <>
-              Eine App, in der Nutzer Metadaten zu Musikern, Alben und Songs
+              Eine App, in der Nutzer Metadaten zu Künstlern, Alben und Songs
               abrufen können. Mehrere Endpunkte der Spotify-, GetSongBPM- und
               MusicBrainz-APIs wurden bereits integriert. Ich plane außerdem,
               den Spotify-Player einzubinden und Song-Empfehlungen basierend auf
