@@ -1,5 +1,4 @@
 import React from "react";
-import reactNativeImage from "../images/React Native.png";
 
 const Toolkit = ({ darkMode }) => {
   return (
