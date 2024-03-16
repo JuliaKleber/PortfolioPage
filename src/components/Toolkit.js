@@ -43,13 +43,13 @@ const Toolkit = ({ darkMode }) => {
           />
           <img
             className="m-1 h-12"
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
-            alt="React"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
+            alt="TypeScript"
           />
           <img
             className="m-1 h-12"
-            src={reactNativeImage}
-            alt="React Native"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+            alt="React"
           />
           <img
             className="m-1 h-12"
