@@ -15,14 +15,14 @@ const ToggleMode = ({ darkMode, setDarkMode }) => {
       <FontAwesomeIcon
         icon={faMoon}
         className={`cursor-pointer ${moonVisible ? "hidden" : "block"}`}
-        onClick={() => toggleMode()}
+        onClick={toggleMode}
         aria-label="Switch to Dark Mode"
         tabIndex="1"
       />
       <FontAwesomeIcon
         icon={faSun}
         className={`cursor-pointer ${moonVisible ? "block" : "hidden"}`}
-        onClick={() => toggleMode()}
+        onClick={toggleMode}
         aria-label="Switch to Light Mode"
         tabIndex="1"
       />

@@ -3,7 +3,7 @@ import foto from "../images/MeDark.jpg";
 
 const Bio = ({ darkMode, language }) => {
   const paragraphStyle = `m-2 text-center ${
-    darkMode ? "text-purple-200" : "text-black"
+    darkMode ? "text-pink-100" : "text-black"
   }`;
 
   const englishInfo = (

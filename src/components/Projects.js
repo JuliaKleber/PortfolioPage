@@ -16,9 +16,9 @@ const Projects = ({ darkMode, language }) => {
             "React",
             "React Router",
             "Zustand",
-            "Fuse.js",
+            "Fuse",
             "SCSS",
-            "Express.js",
+            "Express",
             'MongoDB',
             'Docker',
             'User authentication',
@@ -49,7 +49,7 @@ const Projects = ({ darkMode, language }) => {
           darkMode={darkMode}
           language={language}
           title={"Music Insights"}
-          tools={["React", "Zustand", "Tailwind CSS", "Public API calls"]}
+          tools={["React", "Zustand", "TypeScript", "Tailwind CSS", "Public API calls"]}
           englishDescription={
             <>
               An app where the user can retrieve metadata about artists,

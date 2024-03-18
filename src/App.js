@@ -13,7 +13,7 @@ function App() {
   );
 
   const appStyle = `${
-    darkMode ? "bg-gray-800 text-purple-300" : "bg-floralwhite text-darkMagenta"
+    darkMode ? "bg-gray-900 text-purple-300" : "bg-floralwhite text-darkMagenta"
   }`;
 
   return (
