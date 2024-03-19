@@ -72,7 +72,7 @@ const Projects = ({ darkMode, language }) => {
           gitHubLink={"https://github.com/JuliaKleber/MusicInsights"}
           deployLink={"https://juliakleber.github.io/MusicInsights/"}
           imageLink={
-            "https://github.com/JuliaKleber/MusicInsights/assets/142741980/98417c71-cc1b-47bf-9e91-d97b630cfc01"
+            "https://github.com/JuliaKleber/MusicInsights/assets/142741980/89e84759-3121-4f85-b58f-4afe0fe748c9"
           }
         />
         <Project
