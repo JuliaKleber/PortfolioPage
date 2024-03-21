@@ -1,4 +1,5 @@
 import { useState } from "react";
+import BigImage from "./BigImage";
 
 const Project = ({
   darkMode,
@@ -13,6 +14,7 @@ const Project = ({
   tools,
 }) => {
   const [imageAvailable, setImageAvailable] = useState(true);
+  const [bigImageLink, setBigImageLink] = useState("");
   const goToDeploy = () => {
     window.location.href = deployLink;
   };
@@ -64,10 +66,12 @@ const Project = ({
 
   const image = (
     <img
-      className={`hidden sm:block ms-5 m-2 ${imageSize} rounded-sm shadow-sm`}
+      className={`hidden sm:block ms-5 m-2 ${imageSize} rounded-sm shadow-sm cursor-pointer`}
       src={imageLink}
       alt={`project: ${title}`}
       onError={(e) => setImageAvailable(false)}
+      onClick={() => setBigImageLink(imageLink)}
+      type="button"
     />
   );
 
@@ -77,23 +81,28 @@ const Project = ({
         darkMode ? "bg-black text-pink-100" : "text-black"
       }`}
     >
-      <div className="flex flex-row justify-center items-center">
-        <div className="flex flex-col justify-center items-center">
-          {header}
-          <div
-            className={`w-fit flex flex-row flex-wrap justify-center items-center`}
-          >
-            {toolsList}
+      <BigImage bigImageLink={bigImageLink} setBigImageLink={setBigImageLink} />
+      {!bigImageLink && (
+        <>
+          <div className="flex flex-row justify-center items-center">
+            <div className="flex flex-col justify-center items-center">
+              {header}
+              <div
+                className={`w-fit flex flex-row flex-wrap justify-center items-center`}
+              >
+                {toolsList}
+              </div>
+              {buttons}
+            </div>
+
+            {imageAvailable && image}
           </div>
-          {buttons}
-        </div>
 
-        {imageAvailable && image}
-      </div>
-
-      <p className={`my-3 text-center`}>
-        {language === 'German' ? germanDescription : englishDescription}
-      </p>
+          <p className={`my-3 text-center`}>
+            {language === "German" ? germanDescription : englishDescription}
+          </p>
+        </>
+      )}
     </div>
   );
 };

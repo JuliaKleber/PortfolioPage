@@ -3,7 +3,7 @@ import Project from "./Project";
 
 const Projects = ({ darkMode, language }) => {
   return (
-    <div className='max-w-screen-2xl'>
+    <div className="max-w-screen-2xl">
       <h2 className={`my-8 font-cursive text-4xl text-center`}>
         {language === "German" ? "Projekte" : "Projects"}
       </h2>
@@ -14,15 +14,16 @@ const Projects = ({ darkMode, language }) => {
           title={"Meine Rezepte"}
           tools={[
             "React",
+            "Express",
+            "MongoDB",
             "React Router",
             "Zustand",
-            "Fuse",
+            "Fuse.js",
             "SCSS",
-            "Express",
-            'MongoDB',
-            'Docker',
-            'User authentication',
+            "Docker",
+            "SPA",
             "CRUD actions",
+            "User authentication",
           ]}
           englishDescription={
             <>
@@ -49,12 +50,20 @@ const Projects = ({ darkMode, language }) => {
           darkMode={darkMode}
           language={language}
           title={"Music Insights"}
-          tools={["React", "Zustand", "TypeScript", "Tailwind CSS", "Public API calls"]}
+          tools={[
+            "React",
+            "Zustand",
+            "TypeScript",
+            "Tailwind CSS",
+            "Next.js",
+            "Vercel",
+            "Public API calls",
+          ]}
           englishDescription={
             <>
-              An app where the user can retrieve metadata about artists,
-              albums, and songs. Several endpoints from the Spotify, GetSongBPM
-              and MusicBrainz APIs have already been integrated. I plan to also
+              An app where the user can retrieve metadata about artists, albums,
+              and songs. Several endpoints from the Spotify, GetSongBPM and
+              MusicBrainz APIs have already been integrated. I plan to also
               include the Spotify player and provide song recommendations based
               on the user's taste.
             </>
@@ -70,9 +79,9 @@ const Projects = ({ darkMode, language }) => {
           }
           imageSize={"w-32"}
           gitHubLink={"https://github.com/JuliaKleber/MusicInsights"}
-          deployLink={""}
+          deployLink={"https://nextjs-nu-six-26.vercel.app/"}
           imageLink={
-            "https://github.com/JuliaKleber/MusicInsights/assets/142741980/89e84759-3121-4f85-b58f-4afe0fe748c9"
+            "https://github.com/JuliaKleber/MusicInsights/assets/142741980/dfb28eef-b72c-4ca9-84ed-40f1797bc23d"
           }
         />
         <Project
@@ -176,7 +185,7 @@ const Projects = ({ darkMode, language }) => {
           gitHubLink={"https://github.com/JuliaKleber/PortfolioPage"}
           deployLink={"https://juliakleber.github.io/PortfolioPage/"}
           imageLink={
-            "https://github.com/JuliaKleber/PortfolioPage/assets/142741980/936edea0-654e-4d59-9fcc-f89c5c99c11e"
+            "https://github.com/JuliaKleber/PortfolioPage/assets/142741980/15bf55ec-3d90-41e2-9afa-fac7b4c226d8"
           }
         />
         <Project
