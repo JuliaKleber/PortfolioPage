@@ -15,8 +15,7 @@ https://juliakleber.github.io/PortfolioPage/
 
 ![Screenshot of the light mode](https://github.com/JuliaKleber/PortfolioPage/assets/142741980/15bf55ec-3d90-41e2-9afa-fac7b4c226d8)
 
-![Screenshot of the dark mode](https://github.com/JuliaKleber/PortfolioPage/assets/142741980/2979af2f-db92-4922-bf4a-eded8b071502)
-
+![Screenshot of the dark mode](https://github.com/JuliaKleber/PortfolioPage/assets/142741980/ac41a083-b3e1-4986-abb7-e5415fd7650c)
 
 ## Author
 
