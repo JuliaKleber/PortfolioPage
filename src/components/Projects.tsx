@@ -159,7 +159,7 @@ const Projects = ({ darkMode, language }: ProjectsProps) => {
           darkMode={darkMode}
           language={language}
           title={"Portfolio Page"}
-          tools={["React", "Tailwind CSS"]}
+          tools={["React", "TypeScript", "Tailwind CSS"]}
           englishDescription={"My portfolio page"}
           germanDescription={"Meine Portfolio Seite"}
           imageSize={"w-32"}
