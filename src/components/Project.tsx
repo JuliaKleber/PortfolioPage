@@ -9,8 +9,8 @@ interface ProjectProps {
   imageSize: string;
   gitHubLink: string;
   deployLink: string;
-  englishDescription: string;
-  germanDescription: string;
+  englishDescription: JSX.Element | string;
+  germanDescription: JSX.Element | string;
   tools: string[];
 }
 
@@ -61,7 +61,7 @@ const Project = ({
   const buttonStyle = `py-1 px-2 mx-1 my-1 rounded-md shadow-md ${
     darkMode
       ? "bg-purple-400 text-black hover:bg-purple-500"
-      : "bg-pink-400 hover:bg-pink-500"
+      : "bg-darkMagenta text-floralWhite hover:bg-pink-500"
   }`;
 
   const buttons = (

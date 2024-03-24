@@ -94,15 +94,19 @@ const Projects = ({ darkMode, language }: ProjectsProps) => {
             "Trello",
             "Heroku",
           ]}
-          englishDescription="A task management app built in a team of four within a two-week
+          englishDescription={
+            <div>
+              A task management app built in a team of four within a two-week
               timeframe. To keep users motivated, positive reinforcement, user
               connections, and earning achievements are included.
               <br />
               <br />I was primarily responsible for the backend development,
               deployment on Heroku, and managing the Trello board. I also worked
               on the frontend.
-          "
-          germanDescription="
+            </div>
+          }
+          germanDescription={
+            <div>
               Eine To-Do-App, die wir in einem Team von vier Personen innerhalb
               eines Zeitraums von zwei Wochen entwickelt haben. Um die Benutzer
               zu motivieren, haben wir positive Verstärkung, einen Social Feed
@@ -112,7 +116,8 @@ const Projects = ({ darkMode, language }: ProjectsProps) => {
               Ich war hauptsächlich verantwortlich für die Backend-Entwicklung,
               das Deployment auf Heroku und die Verwaltung des Trello-Boards.
               Außerdem habe ich am Frontend mitgearbeitet.
-            "
+            </div>
+          }
           imageSize={"w-32"}
           gitHubLink={"https://github.com/JuliaKleber/ToDoCoach"}
           deployLink={"https://to-do-coach-f75c7e0f7968.herokuapp.com/"}

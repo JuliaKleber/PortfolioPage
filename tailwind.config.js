@@ -11,7 +11,7 @@ module.exports = {
       colors: {
         crimson: '#DC143C',
         darkMagenta: '#8B008B',
-        floralwhite: '#FFFAF0',
+        floralWhite: '#FFFAF0',
       },
       boxShadow: {
         'costum': '2px 2px 6px 0px rgba(0, 0, 0, 0.5)',

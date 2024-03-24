@@ -11,7 +11,7 @@ function App() {
   const [language, setLanguage] = useState("German");
 
   const appStyle = `${
-    darkMode ? "bg-gray-900 text-purple-300" : "bg-floralwhite text-darkMagenta"
+    darkMode ? "bg-gray-900 text-purple-300" : "bg-floralWhite text-darkMagenta"
   }`;
 
   return (
