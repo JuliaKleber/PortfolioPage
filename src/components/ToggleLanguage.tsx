@@ -1,8 +1,12 @@
-import React from "react";
-import englishFlag from "../images/icons8-english-48.png";
-import germanFlag from "../images/icons8-germany-48.png";
+import englishFlag from "../assets/icons8-english-48.png";
+import germanFlag from "../assets/icons8-germany-48.png";
 
-const ToggleLanguage = ({ language, setLanguage }) => {
+interface ToggleLanguageProps {
+  language: string;
+  setLanguage: (language: string) => void;
+}
+
+const ToggleLanguage = ({ language, setLanguage }: ToggleLanguageProps) => {
   return (
     <div className="p-4">
       {language === "German" ? (
@@ -13,7 +17,6 @@ const ToggleLanguage = ({ language, setLanguage }) => {
           role="button"
           aria-label="Change to English language"
           className="h-8 cursor-pointer"
-          tabIndex="1"
         />
       ) : (
         <img
@@ -23,7 +26,6 @@ const ToggleLanguage = ({ language, setLanguage }) => {
           role="button"
           aria-label="Change to German language"
           className="h-8 cursor-pointer"
-          tabIndex="1"
         />
       )}
     </div>

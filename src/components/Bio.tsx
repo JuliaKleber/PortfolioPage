@@ -1,7 +1,11 @@
-import React from "react";
-import foto from "../images/MeDark.jpg";
+import foto from "../assets/MeDark.jpg";
 
-const Bio = ({ darkMode, language }) => {
+interface BioProps {
+  darkMode: boolean;
+  language: string;
+}
+
+const Bio = ({ darkMode, language }: BioProps) => {
   const paragraphStyle = `m-2 text-center ${
     darkMode ? "text-pink-100" : "text-black"
   }`;
@@ -47,17 +51,6 @@ const Bio = ({ darkMode, language }) => {
         puzzles. Thus, coding feels like the perfect fit for me. I find it
         intellectually stimulating and fullfilling and the problem solving
         aspect is what draws me in.
-      </p>
-    </div>
-  );
-
-  const germanMotivation = (
-    <div className="max-w-[400px] md:max-w-[660px]">
-      <p className={paragraphStyle}>
-        Ich hatte schon immer eine starke Affinität zu Mathematik, logischem
-        Denken und dem Lösen von Rätseln. Daher empfinde ich das Coden als
-        intellektuell anregend und erfüllend, insbesondere der Aspekt des
-        Problemlösens spricht mich an.
       </p>
     </div>
   );

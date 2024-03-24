@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import ToggleMode from "./components/ToggleMode";
 import ToggleLanguage from "./components/ToggleLanguage";
 import Profile from "./components/Profile";

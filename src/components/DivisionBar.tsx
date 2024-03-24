@@ -1,6 +1,4 @@
-import React from "react";
-
-const DivisionBar = ({ darkMode }) => {
+const DivisionBar = ({ darkMode }: { darkMode: boolean }) => {
   return (
     <div
       className={`my-4 border-t-2 ${

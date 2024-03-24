@@ -10,10 +10,11 @@
     "postcss": "^8.4.33",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-scripts": "5.0.1"
+    "react-scripts": "^5.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
+    "type-check": "tsc --noEmit",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
@@ -22,8 +23,7 @@
   },
   "eslintConfig": {
     "extends": [
-      "react-app",
-      "react-app/jest"
+      "react-app"
     ]
   },
   "browserslist": {
@@ -45,8 +45,12 @@
   "author": "Julia",
   "devDependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "@tsconfig/create-react-app": "^2.0.3",
+    "@types/react": "^18.2.69",
+    "@types/react-dom": "^18.2.22",
     "gh-pages": "^6.1.1",
-    "tailwindcss": "^3.4.1"
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5.4.3"
   },
   "homepage": "https://juliakleber.github.io/PortfolioPage/"
 }

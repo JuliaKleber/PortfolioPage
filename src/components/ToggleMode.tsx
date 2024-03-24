@@ -2,11 +2,17 @@ import { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSun, faMoon } from "@fortawesome/free-solid-svg-icons";
 
-const ToggleMode = ({ darkMode, setDarkMode }) => {
+interface ToggleModeProps {
+  darkMode: boolean;
+  setDarkMode: (darkMode: boolean) => void;
+}
+
+const ToggleMode = ({ darkMode, setDarkMode }: ToggleModeProps) => {
   const [moonVisible, setMoonVisible] = useState(darkMode);
 
   const toggleMode = () => {
-    setDarkMode((prev) => !prev);
+    darkMode ? setDarkMode(false) : setDarkMode(true);
+
     setMoonVisible((prev) => !prev);
   };
 
@@ -17,14 +23,12 @@ const ToggleMode = ({ darkMode, setDarkMode }) => {
         className={`cursor-pointer ${moonVisible ? "hidden" : "block"}`}
         onClick={toggleMode}
         aria-label="Switch to Dark Mode"
-        tabIndex="1"
       />
       <FontAwesomeIcon
         icon={faSun}
         className={`cursor-pointer ${moonVisible ? "block" : "hidden"}`}
         onClick={toggleMode}
         aria-label="Switch to Light Mode"
-        tabIndex="1"
       />
     </div>
   );

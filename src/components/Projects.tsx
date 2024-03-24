@@ -1,7 +1,11 @@
-import React from "react";
 import Project from "./Project";
 
-const Projects = ({ darkMode, language }) => {
+interface ProjectsProps {
+  darkMode: boolean;
+  language: string;
+}
+
+const Projects = ({ darkMode, language }: ProjectsProps) => {
   return (
     <div className="max-w-screen-2xl">
       <h2 className={`my-8 font-cursive text-4xl text-center`}>
@@ -25,20 +29,12 @@ const Projects = ({ darkMode, language }) => {
             "CRUD actions",
             "User authentication",
           ]}
-          englishDescription={
-            <>
-              A React application for managing and searching recipes. On the
-              home screen, the recipes of the month, i.e., recipes where the
-              ingredients are in season, are shown.
-            </>
-          }
-          germanDescription={
-            <>
+          englishDescription="A React application for managing and searching recipes. On the home screen, the recipes of the month, i.e., recipes where the ingredients are in season, are shown."
+          germanDescription="
               Eine React-Anwendung zur Verwaltung und Suche von Rezepten. Auf
               dem Startbildschirm werden die Rezepte angezeigt, deren Zutaten im
               aktuellen Monat Saison haben.
-            </>
-          }
+            "
           imageSize={"w-48"}
           gitHubLink={"https://github.com/JuliaKleber/MeineRezepte"}
           deployLink={""}
@@ -59,24 +55,19 @@ const Projects = ({ darkMode, language }) => {
             "Vercel",
             "Public API calls",
           ]}
-          englishDescription={
-            <>
-              An app where the user can retrieve metadata about artists, albums,
+          englishDescription="An app where the user can retrieve metadata about artists, albums,
               and songs. Several endpoints from the Spotify, GetSongBPM and
               MusicBrainz APIs have already been integrated. I plan to also
               include the Spotify player and provide song recommendations based
               on the user's taste.
-            </>
-          }
-          germanDescription={
-            <>
+          "
+          germanDescription="
               Eine App, in der Nutzer Metadaten zu Künstlern, Alben und Songs
               abrufen können. Mehrere Endpunkte der Spotify-, GetSongBPM- und
               MusicBrainz-APIs wurden bereits integriert. Ich plane außerdem,
               den Spotify-Player einzubinden und Song-Empfehlungen basierend auf
               dem Musikgeschmack des Nutzers bereitzustellen.
-            </>
-          }
+            "
           imageSize={"w-32"}
           gitHubLink={"https://github.com/JuliaKleber/MusicInsights"}
           deployLink={"https://nextjs-nu-six-26.vercel.app/"}
@@ -103,19 +94,15 @@ const Projects = ({ darkMode, language }) => {
             "Trello",
             "Heroku",
           ]}
-          englishDescription={
-            <>
-              A task management app built in a team of four within a two-week
+          englishDescription="A task management app built in a team of four within a two-week
               timeframe. To keep users motivated, positive reinforcement, user
               connections, and earning achievements are included.
               <br />
               <br />I was primarily responsible for the backend development,
               deployment on Heroku, and managing the Trello board. I also worked
               on the frontend.
-            </>
-          }
-          germanDescription={
-            <>
+          "
+          germanDescription="
               Eine To-Do-App, die wir in einem Team von vier Personen innerhalb
               eines Zeitraums von zwei Wochen entwickelt haben. Um die Benutzer
               zu motivieren, haben wir positive Verstärkung, einen Social Feed
@@ -125,8 +112,7 @@ const Projects = ({ darkMode, language }) => {
               Ich war hauptsächlich verantwortlich für die Backend-Entwicklung,
               das Deployment auf Heroku und die Verwaltung des Trello-Boards.
               Außerdem habe ich am Frontend mitgearbeitet.
-            </>
-          }
+            "
           imageSize={"w-32"}
           gitHubLink={"https://github.com/JuliaKleber/ToDoCoach"}
           deployLink={"https://to-do-coach-f75c7e0f7968.herokuapp.com/"}
@@ -150,23 +136,18 @@ const Projects = ({ darkMode, language }) => {
             "PostgreSQL",
             "Heroku",
           ]}
-          englishDescription={
-            <>
-              A quiz app built in a team of four within one week. The users can
+          englishDescription="A quiz app built in a team of four within one week. The users can
               create quizzes and solve quizzes. I had the idea for the app and
               was mainly responsible for the backend. I also worked on the
               frontend.
-            </>
-          }
-          germanDescription={
-            <>
+          "
+          germanDescription="
               Eine Quiz-App, die wir in einem Team von vier Personen innerhalb
               von einer Woche entwickelt haben. Die Benutzer können Quizzes
               erstellen und lösen. Ich war Ideengeber und hauptsächlich für das
               Backend verantwortlich. Außerdem habe ich am Frontend
               mitgearbeitet.
-            </>
-          }
+            "
           imageSize={"w-48"}
           gitHubLink={"https://github.com/JuliaKleber/QuizWiz"}
           deployLink={""}
