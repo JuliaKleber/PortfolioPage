@@ -36,14 +36,14 @@ const Project = ({
     window.location.href = gitHubLink;
   };
 
-  const headerStyle = `mb-2 font-cursive  text-3xl ${
-    darkMode ? "text-purple-300" : "text-shadow-costum text-crimson"
+  const headerStyle = `mb-3 font-cursive  text-3xl ${
+    darkMode ? "text-purple-300" : "text-shadow-costum text-darkMagenta"
   }`;
 
   const header = <h3 className={headerStyle}>{title}</h3>;
 
   const listItemStyle = `py-0 px-2 mx-1 my-1 rounded-xl ${
-    darkMode ? "bg-pink-200 text-black" : "bg-red-200"
+    darkMode ? "bg-pink-200 text-black" : "bg-pink-200"
   }`;
 
   const toolsList = (
@@ -61,7 +61,7 @@ const Project = ({
   const buttonStyle = `py-1 px-2 mx-1 my-1 rounded-md shadow-md ${
     darkMode
       ? "bg-purple-400 text-black hover:bg-purple-500"
-      : "bg-red-300 hover:bg-red-400"
+      : "bg-pink-400 hover:bg-pink-500"
   }`;
 
   const buttons = (
