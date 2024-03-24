@@ -3,9 +3,14 @@ import Project from "./Project";
 interface ProjectsProps {
   darkMode: boolean;
   language: string;
+  setZoomedInImageLink: React.Dispatch<React.SetStateAction<string>>;
 }
 
-const Projects = ({ darkMode, language }: ProjectsProps) => {
+const Projects = ({
+  darkMode,
+  language,
+  setZoomedInImageLink,
+}: ProjectsProps) => {
   return (
     <div className="max-w-screen-2xl">
       <h2 className={`my-8 font-cursive text-4xl text-center`}>
@@ -41,6 +46,7 @@ const Projects = ({ darkMode, language }: ProjectsProps) => {
           imageLink={
             "https://github.com/JuliaKleber/MeineRezepte/assets/142741980/0158f416-91fe-416b-a160-ebdda63c36e7"
           }
+          setZoomedInImageLink={setZoomedInImageLink}
         />
         <Project
           darkMode={darkMode}
@@ -74,6 +80,7 @@ const Projects = ({ darkMode, language }: ProjectsProps) => {
           imageLink={
             "https://github.com/JuliaKleber/MusicInsights/assets/142741980/dfb28eef-b72c-4ca9-84ed-40f1797bc23d"
           }
+          setZoomedInImageLink={setZoomedInImageLink}
         />
         <Project
           darkMode={darkMode}
@@ -124,6 +131,7 @@ const Projects = ({ darkMode, language }: ProjectsProps) => {
           imageLink={
             "https://github.com/GoldieCrystal/ToDoCoach/assets/142741980/efaae820-1574-4fe7-ae1f-1cf062fc7e23"
           }
+          setZoomedInImageLink={setZoomedInImageLink}
         />
         <Project
           darkMode={darkMode}
@@ -159,6 +167,7 @@ const Projects = ({ darkMode, language }: ProjectsProps) => {
           imageLink={
             "https://github.com/JuliaKleber/QuizWiz/assets/142741980/2f7a2ce2-09c0-4110-ad90-d607e9bee5af"
           }
+          setZoomedInImageLink={setZoomedInImageLink}
         />
         <Project
           darkMode={darkMode}
@@ -173,6 +182,7 @@ const Projects = ({ darkMode, language }: ProjectsProps) => {
           imageLink={
             "https://github.com/JuliaKleber/PortfolioPage/assets/142741980/15bf55ec-3d90-41e2-9afa-fac7b4c226d8"
           }
+          setZoomedInImageLink={setZoomedInImageLink}
         />
         <Project
           darkMode={darkMode}
@@ -187,6 +197,7 @@ const Projects = ({ darkMode, language }: ProjectsProps) => {
           imageLink={
             "https://github.com/JuliaKleber/MastermindReact/assets/142741980/46527a62-839c-471f-81b9-ef5d9506c512"
           }
+          setZoomedInImageLink={setZoomedInImageLink}
         />
         <Project
           darkMode={darkMode}
@@ -203,6 +214,7 @@ const Projects = ({ darkMode, language }: ProjectsProps) => {
           imageLink={
             "https://github.com/JuliaKleber/MastermindReactNative/assets/142741980/d06aa979-25f4-406d-8509-0d00931c90e6"
           }
+          setZoomedInImageLink={setZoomedInImageLink}
         />
         <Project
           darkMode={darkMode}
@@ -217,6 +229,7 @@ const Projects = ({ darkMode, language }: ProjectsProps) => {
           imageLink={
             "https://github.com/JuliaKleber/portfolio-page/assets/142741980/eafaf7de-1f4b-4ca9-89b9-d13de69d1512"
           }
+          setZoomedInImageLink={setZoomedInImageLink}
         />
         <Project
           darkMode={darkMode}
@@ -235,6 +248,7 @@ const Projects = ({ darkMode, language }: ProjectsProps) => {
           imageLink={
             "https://github.com/JuliaKleber/PortfolioPage/assets/142741980/f0071c07-bdd4-4901-9874-93e8001c4ea6"
           }
+          setZoomedInImageLink={setZoomedInImageLink}
         />
       </div>
     </div>

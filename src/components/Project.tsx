@@ -1,5 +1,4 @@
 import { useState } from "react";
-import BigImage from "./BigImage";
 
 interface ProjectProps {
   darkMode: boolean;
@@ -7,6 +6,7 @@ interface ProjectProps {
   title: string;
   imageLink: string;
   imageSize: string;
+  setZoomedInImageLink: React.Dispatch<React.SetStateAction<string>>;
   gitHubLink: string;
   deployLink: string;
   englishDescription: JSX.Element | string;
@@ -20,6 +20,7 @@ const Project = ({
   title,
   imageLink,
   imageSize,
+  setZoomedInImageLink,
   gitHubLink,
   deployLink,
   englishDescription,
@@ -27,7 +28,6 @@ const Project = ({
   tools,
 }: ProjectProps) => {
   const [imageAvailable, setImageAvailable] = useState(true);
-  const [bigImageLink, setBigImageLink] = useState("");
   const goToDeploy = () => {
     window.location.href = deployLink;
   };
@@ -83,7 +83,7 @@ const Project = ({
       src={imageLink}
       alt={`project: ${title}`}
       onError={() => setImageAvailable(false)}
-      onClick={() => setBigImageLink(imageLink)}
+      onClick={() => setZoomedInImageLink(imageLink)}
     />
   );
 
@@ -93,28 +93,23 @@ const Project = ({
         darkMode ? "bg-black text-pink-100" : "text-black"
       }`}
     >
-      <BigImage bigImageLink={bigImageLink} setBigImageLink={setBigImageLink} />
-      {!bigImageLink && (
-        <>
-          <div className="flex flex-row justify-center items-center">
-            <div className="flex flex-col justify-center items-center">
-              {header}
-              <div
-                className={`w-fit flex flex-row flex-wrap justify-center items-center`}
-              >
-                {toolsList}
-              </div>
-              {buttons}
-            </div>
-
-            {imageAvailable && image}
+      <div className="flex flex-row justify-center items-center">
+        <div className="flex flex-col justify-center items-center">
+          {header}
+          <div
+            className={`w-fit flex flex-row flex-wrap justify-center items-center`}
+          >
+            {toolsList}
           </div>
+          {buttons}
+        </div>
 
-          <p className={`my-3 text-center`}>
-            {language === "German" ? germanDescription : englishDescription}
-          </p>
-        </>
-      )}
+        {imageAvailable && image}
+      </div>
+
+      <p className={`my-3 text-center`}>
+        {language === "German" ? germanDescription : englishDescription}
+      </p>
     </div>
   );
 };
