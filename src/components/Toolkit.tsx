@@ -1,6 +1,4 @@
-import React from "react";
-
-const Toolkit = ({ darkMode }) => {
+const Toolkit = ({ darkMode }: { darkMode: boolean }) => {
   return (
     <div className="my-4 flex flex-col sm:flex-row justify-center items-center">
       <h2 className={`mb-1 sm:mb-0 sm:me-8 font-cursive text-4xl`}>Toolkit</h2>

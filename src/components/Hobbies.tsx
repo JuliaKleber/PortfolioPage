@@ -1,11 +1,10 @@
-import React from "react";
-import bicycleImage from "../images/icons8-bicycle-96.png";
-import boardGamesImage from "../images/icons8-board-game-96.png";
-import climbingImage from "../images/icons8-climbing-96.png";
-import cookingImage from "../images/icons8-cooking-96.png";
-import pianoImage from "../images/icons8-piano-96.png";
+import bicycleImage from "../assets/icons8-bicycle-96.png";
+import boardGamesImage from "../assets/icons8-board-game-96.png";
+import climbingImage from "../assets/icons8-climbing-96.png";
+import cookingImage from "../assets/icons8-cooking-96.png";
+import pianoImage from "../assets/icons8-piano-96.png";
 
-const Hobbies = ({ darkMode }) => {
+const Hobbies = ({ darkMode }: { darkMode: boolean }) => {
   const imageStyles = `h-11 m-2 p-1 ${darkMode && "bg-pink-200 rounded-md"}`;
   return (
     <div className="my-4 flex flex-col sm:flex-row-reverse justify-center items-center">
@@ -16,35 +15,30 @@ const Hobbies = ({ darkMode }) => {
         <img
           className={imageStyles}
           src={climbingImage}
-          type="image/png"
           rel="icon"
           alt="climbing icon"
         />
         <img
           className={imageStyles}
           src={boardGamesImage}
-          type="image/png"
           rel="icon"
           alt="board games icon"
         />
         <img
           className={imageStyles}
           src={bicycleImage}
-          type="image/png"
           rel="icon"
           alt="bicycle icon"
         />
         <img
           className={imageStyles}
           src={cookingImage}
-          type="image/png"
           rel="icon"
           alt="cooking icon"
         />
         <img
           className={imageStyles}
           src={pianoImage}
-          type="image/png"
           rel="icon"
           alt="piano icon"
         />

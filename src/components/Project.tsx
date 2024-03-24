@@ -1,6 +1,19 @@
 import { useState } from "react";
 import BigImage from "./BigImage";
 
+interface ProjectProps {
+  darkMode: boolean;
+  language: string;
+  title: string;
+  imageLink: string;
+  imageSize: string;
+  gitHubLink: string;
+  deployLink: string;
+  englishDescription: string;
+  germanDescription: string;
+  tools: string[];
+}
+
 const Project = ({
   darkMode,
   language,
@@ -12,7 +25,7 @@ const Project = ({
   englishDescription,
   germanDescription,
   tools,
-}) => {
+}: ProjectProps) => {
   const [imageAvailable, setImageAvailable] = useState(true);
   const [bigImageLink, setBigImageLink] = useState("");
   const goToDeploy = () => {
@@ -69,9 +82,8 @@ const Project = ({
       className={`hidden sm:block ms-5 m-2 ${imageSize} rounded-sm shadow-sm cursor-pointer`}
       src={imageLink}
       alt={`project: ${title}`}
-      onError={(e) => setImageAvailable(false)}
+      onError={() => setImageAvailable(false)}
       onClick={() => setBigImageLink(imageLink)}
-      type="button"
     />
   );
 

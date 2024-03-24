@@ -1,7 +1,6 @@
-import React from "react";
-import codewarsImage from "../images/codewars_red.svg";
+import codewarsImage from "../assets/codewars_red.svg";
 
-const Contact = ({ darkMode }) => {
+const Contact = ({ darkMode }: { darkMode: boolean }) => {
   return (
     <div className="my-4 flex flex-col sm:flex-row justify-center items-center">
       <h2 className={`mb-2 sm:mb-0 sm:me-11 font-cursive text-4xl`}>

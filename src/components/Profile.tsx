@@ -1,11 +1,15 @@
-import React from "react";
 import Bio from "./Bio";
 import Hobbies from "./Hobbies";
 import Toolkit from "./Toolkit";
 import Contact from "./Contact";
 import DivisionBar from "./DivisionBar";
 
-const Profile = ({ darkMode, language }) => {
+interface ProfileProps {
+  darkMode: boolean;
+  language: string;
+}
+
+const Profile = ({ darkMode, language } : ProfileProps) => {
   return (
     <div className="flex flex-col">
       <Bio darkMode={darkMode} language={language} />
