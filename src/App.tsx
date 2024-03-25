@@ -16,8 +16,14 @@ function App() {
     darkMode ? "bg-gray-900 text-purple-300" : "bg-floralWhite text-darkMagenta"
   }`;
 
+  const imageClickHandler = () => {
+    if (zoomedInImageLink) {
+      setZoomedInImageLink("");
+    }
+  };
+
   return (
-    <div className={appStyle}>
+    <div className={appStyle} onClick={imageClickHandler}>
       <ZoomedInImage
         zoomedInImageLink={zoomedInImageLink}
         setZoomedInImageLink={setZoomedInImageLink}
