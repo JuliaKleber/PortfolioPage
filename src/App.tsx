@@ -10,9 +10,7 @@ function App() {
     window.matchMedia("(prefers-color-scheme: dark)").matches
   );
   const [language, setLanguage] = useState("German");
-  const [zoomedInImageLink, setZoomedInImageLink] = useState(
-    "https://github.com/JuliaKleber/MusicInsights/assets/142741980/dfb28eef-b72c-4ca9-84ed-40f1797bc23d"
-  );
+  const [zoomedInImageLink, setZoomedInImageLink] = useState("");
 
   const appStyle = `${
     darkMode ? "bg-gray-900 text-purple-300" : "bg-floralWhite text-darkMagenta"
